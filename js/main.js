@@ -197,9 +197,3 @@ jQuery.extend(jQuery.easing, {
 
   startSVGAnimation($('#logo-front'));
   replaceWithPaths($('svg'));
-
-  // on hover load again
-
-  $(".st1").on('click', function() {
-    startSVGAnimation($('#logo-front'));
-  })

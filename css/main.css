@@ -96,14 +96,6 @@
   letter-spacing: 5px;
 }
 
-#Shape_2_:hover {
-  fill: rgba(0, 0, 0, 0.258);
-}
-
-#Shape_2_ {
-  transition: 0.3s ease;
-}
-
 h2 {
   text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.4);
 }
@@ -112,10 +104,35 @@ h1 {
   text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 3px 0 #afb6b6, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
+.tools-collection i {
+  font-size: 0px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
 html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.subtitle:hover {
+  letter-spacing: 7px;
+}
+
+.title {
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.title:hover {
+  letter-spacing: 5px;
 }
 
 .go-down {
@@ -228,12 +245,8 @@ body {
   fill: #FFFFFF;
 }
 
-a {
-  width: 50px;
-  margin: 10px auto;
-}
-a #ehoxlogo {
-  width: 50px;
+#ehoxlogo {
+  width: 60px;
   margin: 10px auto;
 }
 
@@ -516,6 +529,52 @@ h3 {
 h3 {
     page-break-after: avoid;
   }
+}
+.tools-collection i {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 5px !important;
+}
+.tools-collection .jquery {
+  width: 80px !important;
+  padding-bottom: 20px !important;
+  filter: invert(1);
+}
+.tools-collection img {
+  width: 80px !important;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+.tools-collection .gulp {
+  width: 30px !important;
+}
+.tools-collection .ai {
+  width: 60px !important;
+  margin-bottom: -10px !important;
+}
+.tools-collection .psd {
+  width: 53px !important;
+  margin-bottom: -10px;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.subtitle:hover {
+  letter-spacing: 7px;
+}
+
+.title {
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.title:hover {
+  letter-spacing: 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
