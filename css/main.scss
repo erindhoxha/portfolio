@@ -25,23 +25,24 @@ $white: rgb(230, 230, 230);
     position:fixed;
     bottom:30px;
     left:50%;
-    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
-    animation: mymove 5s infinite;
+    -webkit-animation: float 2s ease-in-out infinite;
+    animation: float 2s ease-in-out infinite;
+    cursor:pointer;
     i {
         font-size:40px;
     }
 }
-/* Safari 4.0 - 8.0 */
-@-webkit-keyframes mymove {
-    from {bottom:30px}
-    to {bottom: 50px;}
+@keyframes float {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-5px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
   }
-  
-  @keyframes mymove {
-    from {bottom:30px}
-    to {bottom: 50px;}
-  }
-
 .cta-button {
     margin-top:10px;
     font-family:'Track';
@@ -50,6 +51,7 @@ $white: rgb(230, 230, 230);
     color:$white;
     padding:10px 40px;
     transition:0.3s ease;
+    animation: float 2s ease-in-out infinite;
 }
 .cta-button:hover {
     background-color:$white;
@@ -59,6 +61,18 @@ $white: rgb(230, 230, 230);
     width:800px;
     position:absolute;
     right:50px;
+}
+.code {
+    color:rgb(146, 146, 146);
+    width:100%;
+}
+.code-body {
+    top:30px;
+    position:absolute;
+}
+.code-body-bottom {
+    bottom:30px;
+    position:absolute;
 }
 .st1{fill:rgba(0, 0, 0, 0.1);
     stroke:rgba(187, 187, 187, 0);
@@ -79,7 +93,7 @@ body {
 .sidebar {
     height:100vh;
     position:absolute;
-    background-color:$blackDark;
+    background-color:rgba(29, 29, 29, 0.719);
     width:80px;
     left:0;
     display:flex;
