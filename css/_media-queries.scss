@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+   #logo-front {
+       display:none;
+   }
+   .sidebar, {
+       display:none;
+   }
+   .code-body {
+       position:static !important;
+   }
+   .navbar {
+       display:flex !important;
+       background-color:rgba(0,0,0,0.4);
+       color:white;
+   }
+   .nav-link {
+       margin:0px;
+   }
+   .navbar-brand {
+       margin:0px;
+       color:white;
+   }
+
+   .first-div {
+       h1 {
+           font-size:66px !important;
+       }
+       .subtitle {
+           font-size:30px !important;
+       }
+       .cta-button {
+           animation:none;
+       }
+       .code-body-bottom {
+           position:static;
+       }
+       padding-left:40px !important;
+   }
+   
+}
+@media only screen and (max-width:600px) {
+    .first-div {
+    .cta-button {
+        margin-left: 0px;
+    }
+    }
+
+}
