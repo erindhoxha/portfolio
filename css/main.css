@@ -71,7 +71,20 @@ html {
   color: black; }
 
 .white-bg {
-  background-color: white; }
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white; }
+
+.web-btn, .sketch-btn, .case-btn {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px; }
+
+.web-btn-white, .sketch-btn-white, .case-btn-white {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 10px 20px; }
 
 #logo-front {
   width: 800px;
@@ -176,6 +189,9 @@ body {
 .project h1 {
   margin-bottom: 20px;
   font-size: 50px; }
+
+.bg-diff {
+  background-color: rgba(0, 0, 0, 0.4) !important; }
 
 /*
  * Remove text-shadow in selection highlight:
