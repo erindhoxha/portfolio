@@ -96,6 +96,14 @@
   letter-spacing: 5px;
 }
 
+#Shape_2_:hover {
+  fill: rgba(0, 0, 0, 0.258);
+}
+
+#Shape_2_ {
+  transition: 0.3s ease;
+}
+
 h2 {
   text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.2), 0 3px 5px rgba(0, 0, 0, 0.4);
 }
@@ -245,7 +253,15 @@ body {
   fill: #FFFFFF;
 }
 
-#ehoxlogo {
+a {
+  width: 50px;
+  margin: 10px auto;
+}
+
+a #ehoxlogo {
+  width: 50px;
+}
+a #ehoxlogo #ehoxlogo {
   width: 60px;
   margin: 10px auto;
 }
@@ -535,6 +551,8 @@ h3 {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 5px !important;
+  cursor: pointer;
+  transition: 0.3s ease;
 }
 .tools-collection .jquery {
   width: 80px !important;
@@ -545,6 +563,11 @@ h3 {
   width: 80px !important;
   padding-bottom: 20px;
   margin-left: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.tools-collection img:hover, .tools-collection i:hover {
+  transform: scale(1.1);
 }
 .tools-collection .gulp {
   width: 30px !important;
