@@ -1,0 +1,46 @@
+.tools-collection {
+    i {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-right:5px !important;
+    }
+    .jquery {
+        width:80px !important;
+        padding-bottom:20px !important;
+        filter:invert(1);
+    }
+    img {
+        width:80px !important;
+        padding-bottom:20px;
+        margin-left:20px;
+    }
+    .gulp {
+        width:30px !important;
+    }
+    .ai {
+        width:60px !important;
+        margin-bottom:-10px !important;
+    }
+    .psd {
+        width:53px !important;
+        margin-bottom:-10px;
+    }
+}
+.subtitle {
+    letter-spacing: 2px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+.subtitle:hover {
+    letter-spacing: 7px;
+}
+
+.title {
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.title:hover {
+    letter-spacing: 5px;
+}
