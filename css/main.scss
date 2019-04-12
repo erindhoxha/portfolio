@@ -181,10 +181,21 @@ body {
 }
 
 .project-row {
-    margin-top:50px;
-    padding:80px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
     img {
         width:100%;
+    }
+}
+.container-center {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.project {
+
+    h1 {
+        margin-bottom:20px;
+        font-size:50px;
     }
 }
 /*
