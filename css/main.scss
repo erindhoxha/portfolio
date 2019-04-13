@@ -85,7 +85,7 @@ $white: rgb(230, 230, 230);
     left:50%;
     -webkit-animation: float 2s ease-in-out infinite;
     animation: float 2s ease-in-out infinite;
-    cursor:pointer;
+    cursor:pointer !important;
     i {
         font-size:40px;
     }
