@@ -1,593 +1,75 @@
-/*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
- @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
-/* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
-$blackDark: #181818;
-$blackLight: #252627;
-$white: rgb(230, 230, 230);
-@import '_sidebar.scss';
-@import '_header.scss';
-@import 'media-queries';
-#Shape_2_:hover {
-    fill: rgba(0, 0, 0, 0.258);
-}
-
-#Shape_2_ {
-    transition: 0.3s ease;
-}
-h2 {
-      text-shadow: 0 1px 0 hsl(174, 5%, 80%),
-      0 2px 0 hsl(174, 5%, 75%),
-      0 0 5px rgba(0, 0, 0, .05),
-      0 1px 3px rgba(0, 0, 0, .2),
-      0 3px 5px rgba(0, 0, 0, .4),
-}
-h1 {
-      text-shadow: 0 1px 0 hsl(174, 5%, 80%),
-      0 2px 0 hsl(174, 5%, 75%),
-      0 3px 0 hsl(174, 5%, 70%),
-      0 0 5px rgba(0, 0, 0, .05),
-      0 1px 3px rgba(0, 0, 0, .4),
-      0 3px 5px rgba(0, 0, 0, .6),
-}
-.tools-collection {
-    i {
-        font-size:0px;
-        margin-top:10px;
-        margin-bottom:20px;
-    }
-}
-   html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-.subtitle {
-    letter-spacing: 2px;
-    transition:0.4s ease;
-    cursor:pointer;
-}
-.tools-collection {
-
-}
-.subtitle:hover {
-    letter-spacing: 7px;
-}
-.title {
-    transition:0.4s ease;
-    cursor:pointer;
-}
-.title:hover {
-    letter-spacing:5px;
-}
-.go-down {
-    color:$white;
-    position:absolute;
-    bottom:30px;
-    left:50%;
-    -webkit-animation: float 2s ease-in-out infinite;
-    animation: float 2s ease-in-out infinite;
-    cursor:pointer;
-    i {
-        font-size:40px;
-    }
-}
-@keyframes float {
-    0% {
-      transform: translatey(0px);
-    }
-    50% {
-      transform: translatey(-5px);
-    }
-    100% {
-      transform: translatey(0px);
-    }
-  }
-.cta-button-contact {
-    margin-top:10px;
-    font-family:'Track';
-    background-color:white;
-    border:1px solid $white;
-    color:black;
-    padding:10px 40px;
-    transition:0.3s ease;
-  }
-.cta-button {
-    margin-top:10px;
-    font-family:'Track';
-    background-color:transparent;
-    border:1px solid $white;
-    color:$white;
-    padding:10px 40px;
-    transition:0.3s ease;
-    animation: float 2s ease-in-out infinite;
-}
-.cta-button:hover {
-    background-color:$white;
-    color:black;
-}
-.white-bg {
-    background-color:rgba(0, 0, 0, 0.6);
-    color:white;
-}
-.web-btn, .sketch-btn, .case-btn {
-    color:white;
-    background-color:transparent;
-    border:1px solid white;
-    padding:10px 20px;
-}
-.web-btn-white, .sketch-btn-white, .case-btn-white {
-    color:white;
-    background-color:transparent;
-    border:1px solid white;
-    padding:10px 20px;
-}
-#logo-front {
-    width:800px;
-    position:absolute;
-    right:50px;
-}
-.code {
-    color:rgb(146, 146, 146);
-}
-.navbar {
-    display:none;
-}
-.code-body {
-    top:30px;
-    position:absolute;
-}
-.code-body-bottom {
-    bottom:30px;
-    position:absolute;
-}
-.st1{fill:rgba(0, 0, 0, 0.1);
-    stroke:rgba(0, 0, 0, 0.4);
-    stroke-width:1;
-    stroke-miterlimit:10; 
-    z-index:-1;
-    animation: float 2s ease-in-out infinite;
-}
-
 body {
     // overflow-x:hidden;
     font-family:'Titillium Web';
-    background-color:$blackLight;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23bbbbbb' fill-opacity='0.1'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color:white !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23bbbbbb' fill-opacity='0.3'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
-.st0{fill:#FFFFFF;}
-.st2 {
-    fill:none;
-    stroke:white;
+
+.sidebar {
+    display:none;
+}
+.st0 {
+    width:200px !important;
+    stroke:rgb(0, 0, 0);
+    stroke-miterlimit: 5px;
     stroke-dashoffset: 5px;
-    animation: logo 2s ease-in-out infinite;
+    stroke-width:1.5px;
 }
-@keyframes logo {
-    0% {
-        stroke:rgba(122, 122, 122, 0.699);
-        fill:rgba(255, 255, 255, 0.116);
-    }
-    50% {
-         stroke:rgba(92, 92, 92, 0.699);
-         fill:rgba(94, 94, 94, 0);
-    }
-    100% {
-        stroke:rgba(122, 122, 122, 0.699);
-        fill:rgba(255, 255, 255, 0.116);
-    }
-  }
-.loader {
-    #ehoxloader {
-        width:130px;
-    }
-    height:101vh;
-    position:absolute;
-    z-index:99999;
-    background-color:black;
-    width:100%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+#ehoxlogo {
+    width:60px !important;
+    margin:20px;
 }
-button:focus {
-    outline:none !important;
-}
-a {
-  width: 50px;
-  margin: 10px auto;
-}
-a #ehoxlogo {
-    width: 50px;
-    #ehoxlogo {
-    width: 60px;
-    margin: 10px auto;
-    }
-}
-
-.first-div {
-  display:flex;
-  justify-content:flex-start;
-  padding-left:140px;
-  align-items:center;
-  height:100vh;
-  padding-bottom:50px;
-  h1 {
-      font-size:90px;
-      width:100%;
-      font-family:'Titillium Web';
-  }
-  h2, h3, h4, h5, h6, p {
-      width:100%;
-      color:$white;
-  }
-  h2 {
-      font-size:36px;
-      font-family:'Track';
-  }
-}
-
-.project-row {
-    padding:20px 20px 20px 20px;
+.project-title {
     img {
         width:100%;
     }
 }
-.container-center {
-    display:flex;
-    justify-content: center;
-    align-items:center;
+.project-header {
+    font-size:40px;
+    font-weight:900;
+    margin-bottom:0px;
 }
-.project {
-
-    h1 {
-        margin-bottom:20px;
-        font-size:50px;
-    }
+.small {
+    font-size:17px;
 }
-.bg-diff {
-    background-color:rgba(0,0,0,0.4) !important;
-}
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-    resize: vertical;
-}
-
-/* ==========================================================================
-   Browser Upgrade Prompt
-   ========================================================================== */
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-
-
-
- /* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- /* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
- .hidden {
-  display: none !important;
-}
-
-/*
-* Hide only visually, but have it available for screen readers:
-* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
-*
-* 1. For long content, line feeds are not interpreted as spaces and small width
-*    causes content to wrap 1 word per line:
-*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
-*/
-
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap; /* 1 */
-}
-
-/*
-* Extends the .visuallyhidden class to allow the element
-* to be focusable when navigated to via the keyboard:
-* https://www.drupal.org/node/897638
-*/
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  white-space: inherit;
-}
-
-/*
-* Hide visually and from screen readers, but maintain layout
-*/
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
-* Clearfix: contain floats
-*
-* For modern browsers
-* 1. The space content is one way to avoid an Opera bug when the
-*    `contenteditable` attribute is included anywhere else in the document.
-*    Otherwise it causes space to appear at the top and bottom of elements
-*    that receive the `clearfix` class.
-* 2. The use of `table` rather than `block` is only necessary if using
-*    `:before` to contain the top-margins of child elements.
-*/
-
-.clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
-}
-
- 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
- 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-   @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    p,
-    h2,
+.description {
+    padding-top:50px;
+    padding-bottom:50px;
+    margin-top:100px;
+    background-color:rgba(0,0,0,0.9);
+    color:white;
     h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
+        font-size:20px;
+        font-weight:500;
+        padding-top:30px;
+        padding-bottom:20px;
+        text-align:center;
     }
 }
-
-
-.tools-collection {
-    i {
-        font-size: 30px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        margin-right: 5px !important;
-        cursor:pointer;
-        transition:0.3s ease;
-    }
-
-    .jquery {
-        width: 80px !important;
-        padding-bottom: 20px !important;
-        filter: invert(1);
-    }
-
-    img {
-        width: 80px !important;
-        padding-bottom: 20px;
-        margin-left: 20px;
-        cursor:pointer;
-        transition:0.3s ease;
-    }
-    img:hover, i:hover {
-        transform: scale(1.1);
-    }
-
-    .gulp {
-        width: 30px !important;
-    }
-
-    .ai {
-        width: 60px !important;
-        margin-bottom: -10px !important;
-    }
-
-    .psd {
-        width: 53px !important;
-        margin-bottom: -10px;
-    }
-}
-
-.subtitle {
-    letter-spacing: 2px;
-    transition: 0.4s ease;
-    cursor: pointer;
-}
-
-.subtitle:hover {
-    letter-spacing: 7px;
-}
-
-.title {
-    transition: 0.4s ease;
-    cursor: pointer;
-}
-
-.title:hover {
-    letter-spacing: 5px;
-}
+.line {
+    line-height: 1.5em;
+    position: relative;
+    color:rgba(255,255,255,0.7);
+  }
+.line:after {
+    content:' ';
+    position: absolute;
+    top:100%;
+    left:50%;
+    width: 40px;
+    border:2px solid #d0d0d0;
+    border-radius:4px;
+    box-shadow:inset 0 1px 1px rgba(0, 0, 0, .05);
+    transform:translateX(-50%);
+  }
+  .project-list {
+      padding:0px;
+      padding-top:10px;
+      li {
+          font-size:19px;
+          padding-bottom:10px;
+          list-style-type: none;
+          text-align:center;
+          color:rgba(255,255,255,0.8);
+      }
+  }
