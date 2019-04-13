@@ -1,9 +1,9 @@
-// $("body").css('overflow', 'hidden');
-// setTimeout(() => {
-// $("body").css('overflow', 'unset');
-// $(".loader").fadeOut(300);
-// startSVGAnimation($('#logo-front'));
-// }, 2000);
+$("body").css('overflow', 'hidden');
+setTimeout(() => {
+$("body").css('overflow', 'unset');
+$(".loader").fadeOut(300);
+startSVGAnimation($('#logo-front'));
+}, 2000);
 
 $(".go-down, .cta-button").click(function() {
   $([document.documentElement, document.body]).animate({
