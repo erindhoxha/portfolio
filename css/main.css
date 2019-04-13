@@ -304,6 +304,45 @@ body {
   fill: #FFFFFF;
 }
 
+.st2 {
+  fill: none;
+  stroke: white;
+  stroke-dashoffset: 5px;
+  animation: logo 2s ease-in-out infinite;
+}
+
+@keyframes logo {
+  0% {
+    stroke: rgba(122, 122, 122, 0.699);
+    fill: rgba(255, 255, 255, 0.116);
+  }
+  50% {
+    stroke: rgba(92, 92, 92, 0.699);
+    fill: rgba(94, 94, 94, 0);
+  }
+  100% {
+    stroke: rgba(122, 122, 122, 0.699);
+    fill: rgba(255, 255, 255, 0.116);
+  }
+}
+.loader {
+  height: 101vh;
+  position: absolute;
+  z-index: 99999;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader #ehoxloader {
+  width: 130px;
+}
+
+button:focus {
+  outline: none !important;
+}
+
 a {
   width: 50px;
   margin: 10px auto;
