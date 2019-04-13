@@ -113,6 +113,13 @@ $white: rgb(230, 230, 230);
     background-color:white;
     color:black;
 }
+body {
+    #wp {
+        filter:invert(1);
+        width:60px !important;
+    }
+}
+
 button {
     cursor:pointer !important;
 }
@@ -137,7 +144,11 @@ button {
     border:1px solid white;
     padding:10px 20px;
 }
+button {
+    cursor: default;
+}
 #logo-front {
+    z-index: -999;
     width:800px;
     position:absolute;
     right:50px;
@@ -207,10 +218,11 @@ body {
 button:focus {
     outline:none !important;
 }
-a {
+a.w-5 {
   width: 50px;
   margin: 10px auto;
 }
+
 a #ehoxlogo {
     width: 50px;
     #ehoxlogo {
@@ -543,7 +555,6 @@ textarea {
         margin-top: 10px;
         margin-bottom: 20px;
         margin-right: 5px !important;
-        cursor:pointer;
         transition:0.3s ease;
     }
 
@@ -557,7 +568,6 @@ textarea {
         width: 80px !important;
         padding-bottom: 20px;
         margin-left: 20px;
-        cursor:pointer;
         transition:0.3s ease;
     }
     img:hover, i:hover {

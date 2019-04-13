@@ -242,6 +242,11 @@ html {
   color: black;
 }
 
+body #wp {
+  filter: invert(1);
+  width: 60px !important;
+}
+
 button {
   cursor: pointer !important;
 }
@@ -272,6 +277,7 @@ button {
 }
 
 #logo-front {
+  z-index: -999;
   width: 800px;
   position: absolute;
   right: 50px;
@@ -353,7 +359,7 @@ button:focus {
   outline: none !important;
 }
 
-a {
+a.w-5 {
   width: 50px;
   margin: 10px auto;
 }

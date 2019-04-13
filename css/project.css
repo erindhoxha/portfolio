@@ -50,6 +50,10 @@ body {
   text-align: center;
 }
 
+.row-projects img {
+  width: 100%;
+}
+
 .line {
   line-height: 1.5em;
   position: relative;
@@ -101,6 +105,27 @@ body {
   animation: float 2s ease-in-out infinite;
 }
 
+@media only screen and (max-width: 1024px) {
+  .container-title h1 {
+    font-size: 30px;
+  }
+
+  .order-two {
+    order: 2;
+  }
+
+  .description {
+    margin-top: 0px !important;
+  }
+
+  .container-start {
+    margin-bottom: 50px;
+  }
+
+  .container-grey {
+    padding-top: 0px !important;
+  }
+}
 .bold {
   font-weight: 900;
   color: #8c00ff;
