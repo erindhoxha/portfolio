@@ -678,11 +678,14 @@ h3 {
   padding-bottom: 20px !important;
   filter: invert(1);
 }
+.tools-collection .first-item {
+  margin-left: 0px !important;
+}
 .tools-collection img {
-  width: 80px !important;
+  width: 50px !important;
   padding-bottom: 20px;
-  margin-left: 20px;
   transition: 0.3s ease;
+  margin-left: 10px !important;
 }
 .tools-collection img:hover, .tools-collection i:hover {
   transform: scale(1.1);

@@ -573,12 +573,14 @@ textarea {
         padding-bottom: 20px !important;
         filter: invert(1);
     }
-
+    .first-item {
+        margin-left:0px !important;
+    }
     img {
-        width: 80px !important;
+        width: 50px !important;
         padding-bottom: 20px;
-        margin-left: 20px;
         transition:0.3s ease;
+        margin-left:10px !important;
     }
     img:hover, i:hover {
         transform: scale(1.1);
