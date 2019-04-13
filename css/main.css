@@ -631,6 +631,10 @@ h3 {
   width: 53px !important;
   margin-bottom: -10px;
 }
+.tools-collection .wp {
+  filter: invert(1);
+  width: 50px !important;
+}
 
 .subtitle {
   letter-spacing: 2px;

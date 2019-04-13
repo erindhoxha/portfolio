@@ -197,3 +197,10 @@ jQuery.extend(jQuery.easing, {
 
   startSVGAnimation($('#logo-front'));
   replaceWithPaths($('svg'));
+
+
+$('.go-down').click(function() {      
+    $('body,html').animate({
+        scrollTop : 800                      
+    }, 500);
+  });
