@@ -113,6 +113,9 @@ $white: rgb(230, 230, 230);
     background-color:white;
     color:black;
 }
+button {
+    cursor:pointer !important;
+}
 .cta-button:hover {
     background-color:$white;
     color:black;

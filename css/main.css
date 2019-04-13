@@ -242,6 +242,10 @@ html {
   color: black;
 }
 
+button {
+  cursor: pointer !important;
+}
+
 .cta-button:hover {
   background-color: #e6e6e6;
   color: black;
