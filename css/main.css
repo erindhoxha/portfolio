@@ -168,6 +168,9 @@
   text-shadow: 0 1px 0 #c9cfce, 0 2px 0 #bcc2c2, 0 3px 0 #afb6b6, 0 0 5px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0, 0.6);
 }
 
+.tools-collection {
+  margin-top: 20px !important;
+}
 .tools-collection i {
   font-size: 0px;
   margin-top: 10px;

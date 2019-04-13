@@ -3,7 +3,7 @@ setTimeout(() => {
 $("body").css('overflow', 'unset');
 $(".loader").fadeOut(300);
 startSVGAnimation($('#logo-front'));
-}, 2000);
+}, 2100);
 
 $(".go-down, .cta-button").click(function() {
   $([document.documentElement, document.body]).animate({
@@ -209,3 +209,5 @@ jQuery.extend(jQuery.easing, {
   }
 
   replaceWithPaths($('svg'));
+
+startSVGAnimation($('#ehoxloader'));
