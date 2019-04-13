@@ -1,3 +1,17 @@
+$("body").css('overflow', 'hidden');
+$(".loader").fadeIn();
+setTimeout(() => {
+$("body").css('overflow', 'unset');
+$(".loader").fadeOut(300);
+startSVGAnimation($('#logo-front'));
+}, 2100);
+
+$(".go-down, .cta-button").click(function() {
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $(".first-container").offset().top
+  }, 1000);
+});
+
 jQuery.extend(jQuery.easing, {
     easeInOutQuad: function (x, t, b, c, d) {
       if ((t /= d / 2) < 1) return c / 2 * t * t + b;
@@ -195,12 +209,6 @@ jQuery.extend(jQuery.easing, {
     drawSVGPaths(parentElement, 1255, 2222, 1255);
   }
 
-  startSVGAnimation($('#logo-front'));
   replaceWithPaths($('svg'));
 
-
-$('.go-down').click(function() {      
-    $('body,html').animate({
-        scrollTop : 800                      
-    }, 500);
-  });
+startSVGAnimation($('#ehoxloader'));
