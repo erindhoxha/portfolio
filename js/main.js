@@ -4,13 +4,34 @@ setTimeout(() => {
 $("body").css('overflow', 'unset');
 $(".loader").fadeOut(300);
 startSVGAnimation($('#logo-front'));
-}, 2100);
+}, 2200);
 
 $(".go-down, .cta-button").click(function() {
   $([document.documentElement, document.body]).animate({
       scrollTop: $(".first-container").offset().top
   }, 1000);
 });
+
+$(function(){
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+        var os = $('.f-div').offset().top; // pixels to the top of div1
+        var ht = $('.f-div').height(); // height of div1 in pixels
+        // if you've scrolled further than the top of div1 plus it's height
+        // change the color. either by adding a class or setting a css property
+        if(scroll > os + ht){
+            $('.main-go-up').fadeIn(200);
+        } else {
+            $('.main-go-up').fadeOut(300);
+        }
+    });
+});
+
+$(".go-up-button").on('click', function() {
+    $([document.documentElement, document.body]).animate({
+      scrollTop: $("body").offset().top
+    }, 1000);
+})
 
 jQuery.extend(jQuery.easing, {
     easeInOutQuad: function (x, t, b, c, d) {
