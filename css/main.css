@@ -149,6 +149,13 @@
   fill: rgba(0, 0, 0, 0.258);
 }
 
+.navbar a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbar a i {
+  font-size: 25px;
+}
+
 #Shape_2_ {
   transition: 0.3s ease;
 }
@@ -165,6 +172,9 @@
   font-size: 0px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+.tools-collection img {
+  width: 100%;
 }
 
 html {
@@ -274,6 +284,10 @@ button {
   background-color: transparent;
   border: 1px solid white;
   padding: 10px 20px;
+}
+
+button {
+  cursor: default;
 }
 
 #logo-front {
@@ -657,7 +671,6 @@ h3 {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-right: 5px !important;
-  cursor: pointer;
   transition: 0.3s ease;
 }
 .tools-collection .jquery {
@@ -669,7 +682,6 @@ h3 {
   width: 80px !important;
   padding-bottom: 20px;
   margin-left: 20px;
-  cursor: pointer;
   transition: 0.3s ease;
 }
 .tools-collection img:hover, .tools-collection i:hover {
@@ -704,6 +716,66 @@ h3 {
 
 .title:hover {
   letter-spacing: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .tools-collection .psd, .tools-collection .gulp, .tools-collection img {
+    width: 40px !important;
+  }
+
+  .button-container {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .project h1 {
+    font-size: 30px;
+  }
+
+  .tools-collection {
+    display: none;
+  }
+
+  .go-down {
+    display: none;
+  }
+
+  .code {
+    width: 100%;
+  }
+
+  .first-div .h1-shadow {
+    text-shadow: none;
+  }
+  .first-div .h2-shadow {
+    text-shadow: none !important;
+  }
+  .first-div .subtitle {
+    font-size: 25px !important;
+    width: 90%;
+  }
+  .first-div .title {
+    font-size: 40px !important;
+  }
+
+  .cta-button-contact {
+    margin-left: 0px !important;
+  }
+
+  .col-lg-6 h1 {
+    margin-top: 30px;
+  }
+
+  .order-two {
+    order: 2;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  .button-container button {
+    margin-top: 10px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

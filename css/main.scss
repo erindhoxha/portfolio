@@ -20,7 +20,14 @@ $white: rgb(230, 230, 230);
 #Shape_2_:hover {
     fill: rgba(0, 0, 0, 0.258);
 }
-
+.navbar {
+    a {
+        color:rgba(255,255,255,0.7);
+        i {
+            font-size:25px;
+        }
+    }
+}
 #Shape_2_ {
     transition: 0.3s ease;
 }
@@ -44,6 +51,9 @@ $white: rgb(230, 230, 230);
         font-size:0px;
         margin-top:10px;
         margin-bottom:20px;
+    }
+    img {
+        width:100%;
     }
 }
    html {
@@ -607,3 +617,64 @@ textarea {
 .title:hover {
     letter-spacing: 5px;
 }
+
+@media only screen and (max-width: 1024px) {
+    .tools-collection {
+        .psd, .gulp, img {
+            width:40px !important;
+        }
+    }
+    .button-container {
+        margin-top:30px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+      .project {
+          h1 {
+              font-size:30px;
+          }
+      }
+      .tools-collection {
+          display:none;
+      }
+      .go-down {
+          display:none;
+      }
+      .code {
+          width:100%;
+      }
+      .first-div {
+        .h1-shadow {
+              text-shadow:none;
+        }
+        .h2-shadow {
+            text-shadow:none !important;
+        }
+        .subtitle {
+            font-size:25px !important;
+            width:90%;
+        }
+        .title {
+            font-size:40px !important;
+        }
+      }
+ 
+      .cta-button-contact {
+          margin-left:0px !important;
+      }
+      .col-lg-6 {
+          h1 {
+              margin-top:30px;
+          }
+      }
+    .order-two {
+        order:2;
+    }
+    .button-container {
+        button {
+            margin-top:10px;
+        }
+        text-align:center;
+    }
+  }
