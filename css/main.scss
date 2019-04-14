@@ -121,11 +121,17 @@ $white: rgb(230, 230, 230);
 .cta-button-contact {
     margin-top:10px;
     font-family:'Track';
-    background-color:white;
     border:1px solid $white;
-    color:black;
     padding:10px 40px;
     transition:0.3s ease;
+  }
+  .portfolio-button:hover {
+      background-color:transparent !important;
+      color:white !important;
+  }
+  .cta-button-contact:hover {
+      background-color:white !important;
+      color:black !important;
   }
   .go-up-button {
     margin-top:10px;
