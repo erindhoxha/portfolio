@@ -1,0 +1,571 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/project.css">
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        .row-projects {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            border-bottom: 2px solid #dfdfdf;
+        }
+    </style>
+</head>
+
+<body id="body-project">
+        <button type="button" target="_blank" class="go-up-button main-go-up"><i class="fas fa-chevron-up"></i></button>
+    <div class="loader">
+        <svg version="1.1" id="ehoxloader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 52 48" style="enable-background:new 0 0 52 48;" xml:space="preserve">
+            <g id="Website">
+                <g id="Home" transform="translate(-60.000000, -26.000000)">
+                    <path id="Shape_1_" class="st2"
+                        d="M103.5,51.8c0.9,0,1.7-0.8,1.7-1.7v-9.6c0-4.4-3.6-7.9-7.9-7.9H74.7c-4.4,0-7.9,3.6-7.9,7.9
+          v18.9c0,4.4,3.6,7.9,7.9,7.9h26.2c2.6,0,4.8,2.2,4.8,4.8l0,0c0,0.2-0.2,0.3-0.3,0.3H74.7c-7.2,0.1-13-5.7-13-12.9V40.6
+          c0-7.2,5.8-13,13-13h22.6c7.2,0,13,5.8,13,13v10.2v0.8c0,3.7-3,6.8-6.8,6.8H90.3c-0.2,0-0.3,0.2-0.3,0.3v5.6
+          c0,0.2-0.2,0.3-0.3,0.3H89c-4.2,0-5.1-2.5-5.1-5.5v-0.7c0-0.2-0.2-0.3-0.3-0.3h-4.2c-0.2,0-0.3,0.2-0.3,0.3V64
+          c0,0.2-0.1,0.3-0.3,0.3l-2.2,0.1c-2.3,0-3.9-2-3.9-4.3v-16c0-0.2,0.2-0.3,0.3-0.3h1.2c2.5,0,4.5,2.1,4.5,4.5v3.4
+          c0,0.2,0.2,0.3,0.3,0.3h4.5c0.2,0,0.3-0.2,0.3-0.3v-8.2c0-0.2,0.2-0.3,0.3-0.3h1.5c2.5,0,4.5,2.1,4.5,4.5V52L103.5,51.8z" />
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <a href="index.html">
+        <svg version="1.1" id="ehoxlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 52 48" style="enable-background:new 0 0 52 48;" xml:space="preserve">
+            <g id="Website">
+                <g id="Home" transform="translate(-60.000000, -26.000000)">
+                    <path id="Shape_1_" class="st0"
+                        d="M103.5,51.8c0.9,0,1.7-0.8,1.7-1.7v-9.6c0-4.4-3.6-7.9-7.9-7.9H74.7c-4.4,0-7.9,3.6-7.9,7.9
+           v18.9c0,4.4,3.6,7.9,7.9,7.9h26.2c2.6,0,4.8,2.2,4.8,4.8l0,0c0,0.2-0.2,0.3-0.3,0.3H74.7c-7.2,0.1-13-5.7-13-12.9V40.6
+           c0-7.2,5.8-13,13-13h22.6c7.2,0,13,5.8,13,13v10.2v0.8c0,3.7-3,6.8-6.8,6.8H90.3c-0.2,0-0.3,0.2-0.3,0.3v5.6
+           c0,0.2-0.2,0.3-0.3,0.3H89c-4.2,0-5.1-2.5-5.1-5.5v-0.7c0-0.2-0.2-0.3-0.3-0.3h-4.2c-0.2,0-0.3,0.2-0.3,0.3V64
+           c0,0.2-0.1,0.3-0.3,0.3l-2.2,0.1c-2.3,0-3.9-2-3.9-4.3v-16c0-0.2,0.2-0.3,0.3-0.3h1.2c2.5,0,4.5,2.1,4.5,4.5v3.4
+           c0,0.2,0.2,0.3,0.3,0.3h4.5c0.2,0,0.3-0.2,0.3-0.3v-8.2c0-0.2,0.2-0.3,0.3-0.3h1.5c2.5,0,4.5,2.1,4.5,4.5V52L103.5,51.8z" />
+                </g>
+            </g>
+        </svg>
+    </a>
+
+    <div class="container container-start f-div">
+        <div class="row text-center">
+            <div class="col-lg-12 project-title">
+                <span class='small'>HappyCentro | HappyCentro Finder</span>
+                <h1 class="project-header">Design agency website integrated with an Agency finder</h1>
+                <img src="img/happycentro.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 description">
+                <h3 class="line">Company</h3>
+                <ul class="project-list">
+                    <li>HappyCentro</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 description">
+                <h3 class="line">My design process</h3>
+                <ul class="project-list">
+                    <li>Front End Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Graphic Design</li>
+                    <li>User Research / Target Audience</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping & UML Diagrams</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 description">
+                <h3 class="line">Year</h3>
+                <ul class="project-list">
+                    <li>2019</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-title">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>I've built this website to showcase HappyCentro's skills and location.</h1>
+                <a href="https://erindhoxha.github.io/happyCentro/" target="_blank"><button class="cta-button-black">HappyCentro Website</button></a>
+                <a href="https://erindhoxha.github.io/happyCentro/" target="_blank"><button class="cta-button-black">HappyCentro Finder Website</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-grey">
+        <div class="container case-study">
+            <div class="row row-projects">
+                <div class="col-lg-6">
+                    <p class="small">GETTING STARTED</p>
+                    <h1>
+                        Brief & Project timeline
+                    </h1>
+                    <p class="small">The project timeline consisted of 3 weeks, which I've prioritised 5 key tasks. They
+                        are divided between:</p>
+                    <p class="small">Documentation</p>
+                    <p class="small">Research</p>
+                    <p class="small">Prototyping</p>
+                    <p class="small">Coding</p>
+                    <p class="small">Closure</p>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <img class="case-study-image" src="img/project-timeline.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/nzt-logo.png" alt="">
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Client Overview
+                    </h1>
+                    <p class="small">Tourism New Zealand is the organisation responsible for marketing
+                        New Zealand to the world as a tourist destination. The
+                        major tool we use to do this is the 100% Pure New Zealand
+                        marketing campaign, a campaign that has evolved over the
+                        past two decades to make New Zealand one of the world's
+                        most well-respected tourism brands.
+                    </p>
+                    <p class="small"> International tourism has grown to become New Zealand's
+                        largest earner of foreign exchange, pumping around NZD14.5
+                        billion annually into the nation's economy. Over 3.7 million
+                        visitors arrive in the country every year. (updated December
+                        2017)</p>
+
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Project Scenario
+                    </h1>
+                    <p class="small">Web designing a single page web application, which is
+                        responsive for all type of devices, they have a new campaign
+                        that is aimed at visitors staying for short periods, booking their
+                        own accommodation and arranging their own transport.
+                        A single page web application which allows users to input information,
+                        and provide feedback with Accommodation or
+                        Transport options, calculating their cost and displaying the
+                        price and a payment option.</p>
+                    <p class="small">For this project we’ve chosen to do Transport and Accommodation
+                        to help their needs in one go, so they can book their
+                        vehicle & the place of stay within one website.</p>
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/tnz.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+                <div class="col-lg-6 mt-5 pt-5 order-two">
+                    <img class="case-study-image" style="width:330px" src="img/wireframe-tnz.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">DESIGN</p>
+                    <h1>
+                        Wireframes
+                    </h1>
+                    <p class="small">I've started to do some research about the competitors, we came up with a Low-Fi
+                        sketch.</p>
+                    <p class="small">Tried to solve the problem of ordering both Accommodation & Transport at the same
+                        time.</p>
+                    <p class="small">With this wireframe I concluded that two inputs would be used from Accommodation &
+                        Transport, and the other two for dates before/after.</p>
+                    <p class="small">Sometimes the users click accidentally, so we've added a button called "Search" to
+                        activate the search results.</p>
+                    <a href="https://sketch.cloud/s/bo139" target="_blank"><button type="button"
+                            class="cta-button-black" style="border-right:1px solid black">Wireframes on
+                            Sketch</button></a>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">DESIGN</p>
+                    <h1>
+                        UML Diagram
+                    </h1>
+                    <p class="small">The UML Diagram is pretty straight forward, which shows the user how would use it.
+                    </p>
+                    <p class="small">The key element for the user was the search, find and funnel the path to the pay
+                        options.</p>
+                    <p class="small">For best user experience, we've used this UML Diagram to show the potential of
+                        simplifying the website into a better user experience website.</p>
+
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" style="width:100%" src="img/uml-diagram.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5 order-2">
+                    <p class="small">Research</p>
+                    <h1>
+                        Information Architecture
+                    </h1>
+                    <p class="small">We've done some research for other conferences and came up with a moodboard.</p>
+                    <p class="small">The reason behind this was to not re-invent the wheel, create something that is
+                        original, but getting inspired by other conferences.</p>
+                    <p class="small">The logo, design & the branding I got inspired from VS Code, the brackets and the
+                        colours palette which I've used for coding.</p>
+                    <p class="small">The city's logo was "The queen on the throne" which when you searched on google
+                        about "Mbreteresha ne fron" it shows the symbol of the city, which we used for the main header /
+                        as part of the branding to symbolise peace, comfort for Pristina's citizens.</p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5 order-0">
+                    <img class="case-study-image" src="img/nformation-architecture.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5 order-two">
+                    <img class="case-study-image" src="img/chart-user-research-tnz.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        User Research
+                    </h1>
+                    <p class="small">By the result of the search of user researching for Tourism New
+                        Zealand I’ve found out that mostly users from overseas
+                        will be using this app, and their language varies from
+                        place to place.</p>
+                    <p class="small">People aged 18 to 33 - 80%</p>
+                    <p class="small">People ages 33+ - 20%</p>
+                    <p class="small">The stats are important when pre-developing the project since
+                        it gives an overview of the age group and the type of users
+                        which will interact with it.
+                        Overseas visitor arrivals are increased by 9 percent since 2015.
+                        New Zealand is known for beautiful places to visit, and mostly
+                        backpackers will use the website, so for that matter the website
+                        is responsive for Mobile, Tablets and Desktop, and every file
+                        is minified to help their needs to download / see the website.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">DESIGN</p>
+                    <h1>
+                        Moodboard
+                    </h1>
+                    <p class="small">We've done some research for other conferences and came up with a moodboard.</p>
+                    <p class="small">The reason behind this was to not re-invent the wheel, create something that is
+                        original, but getting inspired by other conferences.</p>
+                    <p class="small">The logo, design & the branding I got inspired from VS Code, the brackets and the
+                        colours palette which I've used for coding.</p>
+                    <p class="small">The city's logo was "The queen on the throne" which when you searched on google
+                        about "Mbreteresha ne fron" it shows the symbol of the city, which we used for the main header /
+                        as part of the branding to symbolise peace, comfort for Pristina's citizens.</p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/tnz-moodboard.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+
+                <div class="col-lg-12 mt-5 pt-5">
+                    <p class="small">Research3</p>
+                    <h1>
+                        SWOT Analysis
+                    </h1>
+                    <h3>Strengths</h3>
+                    <p class="small">Tourism New Zealand is a highly valuable website & has
+                        a great brand and trust since it’s connected with the government,
+                        which allows users to book & shop freely without
+                        stress.</p>
+                    <h3>Weaknesses</h3>
+                    <p class="small">Weakness of Tourism New Zealand is that the competition
+                        of the other companies are focused for this campaign’s needs,
+                        which causes a problem for other customers to shift between
+                        other websites and Tourism New Zealand’s one.</p>
+                    <h3>Opportunities</h3>
+                    <p class="small">Opportunities of Tourim New Zealand are extendable to a
+                        grade which not only the company is responsible for the NZ
+                        tourism but can offer many of the cheapest and best
+                        accommodation and transport for their customers.</p>
+                    <h3>Threats</h3>
+                    <p class="small">As New Zealand has bus tours and they offer accommodation
+                        and transport within the same package, some travellers
+                        especially backpackers might choose those companies to
+                        travel, because of the safe way to book everything at once.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">DESIGN</p>
+                    <h1>
+                        Persona 1
+                    </h1>
+                    <p class="small">We've done some research for other conferences and came up with a moodboard.</p>
+                    <p class="small">The reason behind this was to not re-invent the wheel, create something that is
+                        original, but getting inspired by other conferences.</p>
+                    <p class="small">The logo, design & the branding I got inspired from VS Code, the brackets and the
+                        colours palette which I've used for coding.</p>
+                    <p class="small">The city's logo was "The queen on the throne" which when you searched on google
+                        about "Mbreteresha ne fron" it shows the symbol of the city, which we used for the main header /
+                        as part of the branding to symbolise peace, comfort for Pristina's citizens.</p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/Screen Shot 2019-04-13 at 4.57.17 PM.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/Screen Shot 2019-04-13 at 4.57.22 PM.png" alt="">
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">DESIGN</p>
+                    <h1>
+                        Persona 2
+                    </h1>
+                    <p class="small">We've done some research for other conferences and came up with a moodboard.</p>
+                    <p class="small">The reason behind this was to not re-invent the wheel, create something that is
+                        original, but getting inspired by other conferences.</p>
+                    <p class="small">The logo, design & the branding I got inspired from VS Code, the brackets and the
+                        colours palette which I've used for coding.</p>
+                    <p class="small">The city's logo was "The queen on the throne" which when you searched on google
+                        about "Mbreteresha ne fron" it shows the symbol of the city, which we used for the main header /
+                        as part of the branding to symbolise peace, comfort for Pristina's citizens.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Competitor Analysis 1
+                    </h1>
+                    <p class="small">Website is responsive, have deals and flights on sale - which I’ve
+                        thought to put it also in our website but their aim is globally
+                        helping kiwis to send people through Europe and other continents,
+                        so the only way to make their competition level lower was
+                        to make it more about New Zealand and make it that way that
+                        people from other countries can change their language, which
+                        House of Travel doesn’t have. </p>
+                    <p class="small">I’ve chosen House Of Travel as a
+                        competitor to analyse owing to Tourism New Zealand and
+                        House Of Travel having a similar product and a similar target
+                        audience.</p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/house-of-travel.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/sta.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Competitor Analysis 2
+                    </h1>
+                    <p class="small">WSimilar to House of Travel, STA Travel ofers flights round the
+                        world and is focused on flights, hotels, tours and insurance.
+                        They have stores New Zealand wide, and have newsletters
+                        which lets them subscribe and get offers and deals by this company.</p>
+                    <p class="small">
+                        For this reason, Tourism New Zealand offers a checkbox
+                        which asks for permission to receive letters from NZT. I’ve
+                        chosen STA Travel as a competitor to analyse owing to Tourism
+                        New Zealand and STA Travel having a similar product and a similar
+                        target audience.</p>
+                </div>
+            </div>
+
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Prototype Testing
+                    </h1>
+                    <p class="small">From the usability testing I perfomed using Dane (my fellow classmate)
+                        we saw that mostly the users know what to click and how to interact with it,
+                        but instead of making the image static I’ve decided to make it a carousel so they
+                        can change the image</p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/proto-testing.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/chatbot.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Chatbot
+                    </h1>
+                    <p class="small">For this website I’ve decided to create a website the majority of users that I’ve
+                        researched will be using tablets and phones and they would want to chat for
+                        their options rather than searching on the input and around the web, making it
+                        easier for them to get to the final results and choose between the cards.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-12 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Accessibility
+                    </h1>
+                    <p class="small">When it comes to paying, we want to be very secure &
+                        confidential to keep every credit card / password safe.
+                        And for accessibility reasons we added the “cursor - help” when
+                        they hover into the CVC section.</p>
+                    <p class="small">
+                        Since this website has to be accessible for anyone, and the
+                        language they choose will be read to them in any language
+                        for people with hearing impaired.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/Screen Shot 2019-04-13 at 5.37.40 PM.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Design</p>
+                    <h1>
+                        Mockup
+                    </h1>
+                    <p class="small">For this website I’ve decided to create a website the majority of users that I’ve
+                        researched will be using tablets and phones and they would want to chat for
+                        their options rather than searching on the input and around the web, making it
+                        easier for them to get to the final results and choose between the cards.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-12 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Appendix
+                    </h1>
+                    <p class="small">All images are used from:www.pexels.com</p>
+
+                    <p class="small">iPad and iPhone mockups:</p>
+                    <p class="small">https://www.mockupworld.co/free/iphone-and-ipad-presentation-mockups</p>
+
+                    <p class="small">https://creativebooster.net/collections/all-freebies/tablet</p>
+                    <p class="small">http://www.mediafire.com/file/kbp90ju7g5tr499/FreeMacbookProMockup.zip</p>
+
+                    <p class="small">https://pngtree.com/free-icon/print_38507</p>
+                    <p class="small">Chat Icon</p>
+                    <p class="small">http://icons-for-free.com</p>
+                    <p class="small">Descriptions and copywriting</p>
+                    <p class="small"> New Zealand Tourism & AirBnB
+                </div>
+            </div>
+            <div class="container container-title">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>You can see the final website here and thank you for reading!</h1>
+                        <a href="https://erindhoxha.github.io/newZealandTourism/" target="_blank">
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">Website</button>
+                        </a>
+                        <a href="img/New Zealand Tourism - Internal Documentation.pdf" download>
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">PDF Documentation</button>
+                        </a>
+                        <a href="img/New Zealand Tourism - Website Proposal.pdf" download>
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">PDF Project Proposal</button>
+                        </a>
+                        <a href="img/New Zealand Tourism - Project Management.pdf" download>
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">PDF Project Management</button>
+                                <a href="img/New Zealand Tourism - Project Management.pdf" download>
+                                    <button type="button" target="_blank" class="cta-button-black"
+                                        style="border: 2px solid black">Sketch</button>
+                                </a>
+                        </a><br>
+                          <button type="button" target="_blank" class="go-up-button" style="border:none;">Go up <i class="fas fa-chevron-up"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center mt-3 mb-3">
+            <p>Developed by erindhox.</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
