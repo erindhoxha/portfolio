@@ -10,7 +10,7 @@
   font-family: "Track";
   src: url("../fonts/Track-Regular.otf");
   src: url("../fonts/Track-Regular.eot");
-  src: url("../fonts/Track-Regular.eot") format("embedded-opentype"), url("../fonts/Track-Regular.woff2") format("woff2"), url("../fonts/Track-Regular.woff") format("woff"), url("../fonts/Track-Regular.ttf") format("truetype"), url("../fonts/Track-Regular.svg#Track-Regular") format("svg");
+  src: url("../fonts/Track-Regular.eot") format("embedded-opentype"), url("../fonts/Track-Regular.ttf") format("truetype"), url("../fonts/Track-Regular.svg#Track-Regular") format("svg");
 }
 /* ==========================================================================
    Base styles: opinionated defaults
