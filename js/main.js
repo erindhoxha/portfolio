@@ -1,3 +1,10 @@
+
+$(".go-down, .cta-button").click(function() {
+  $([document.documentElement, document.body]).animate({
+      scrollTop: $(".first-container").offset().top
+  }, 1000);
+});
+
 $("body").css('overflow', 'hidden');
 $(".loader").fadeIn();
 setTimeout(() => {
@@ -6,11 +13,6 @@ $(".loader").fadeOut(300);
 startSVGAnimation($('#logo-front'));
 }, 2200);
 
-$(".go-down, .cta-button").click(function() {
-  $([document.documentElement, document.body]).animate({
-      scrollTop: $(".first-container").offset().top
-  }, 1000);
-});
 
 $(function(){
     $(window).scroll(function() {
