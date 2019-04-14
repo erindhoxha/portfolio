@@ -11,7 +11,7 @@ setTimeout(() => {
 $("body").css('overflow', 'unset');
 $(".loader").fadeOut(300);
 startSVGAnimation($('#logo-front'));
-}, 00);
+}, 2200);
 
 
 $(function(){
