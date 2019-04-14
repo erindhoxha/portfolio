@@ -4,7 +4,7 @@ setTimeout(() => {
 $("body").css('overflow', 'unset');
 $(".loader").fadeOut(300);
 startSVGAnimation($('#logo-front'));
-}, 2200);
+}, 00);
 
 $(".go-down, .cta-button").click(function() {
   $([document.documentElement, document.body]).animate({

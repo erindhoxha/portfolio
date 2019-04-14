@@ -218,6 +218,25 @@ html {
   font-size: 40px;
 }
 
+.cta-button-see {
+  margin-top: 30px;
+  font-family: "Track";
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  padding: 10px 40px;
+  transition: 0.3s ease;
+}
+
+.cta-button-see:hover {
+  background-color: black;
+  color: white;
+}
+
+.answer {
+  font-style: italic;
+}
+
 @keyframes float {
   0% {
     transform: translatey(0px);
@@ -388,7 +407,7 @@ body {
 .loader {
   height: 101vh;
   position: fixed;
-  z-index: 99999;
+  z-index: 999999999999;
   background-color: black;
   width: 100%;
   display: flex;

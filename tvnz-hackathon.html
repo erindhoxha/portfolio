@@ -1,0 +1,345 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/project.css">
+    <meta name="theme-color" content="#fafafa">
+    <style>
+        .row-projects {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            border-bottom: 2px solid #dfdfdf;
+        }
+    </style>
+</head>
+
+<body id="body-project">
+    <button type="button" target="_blank" class="go-up-button main-go-up"><i class="fas fa-chevron-up"></i></button>
+    <div class="loader">
+        <svg version="1.1" id="ehoxloader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 52 48" style="enable-background:new 0 0 52 48;" xml:space="preserve">
+            <g id="Website">
+                <g id="Home" transform="translate(-60.000000, -26.000000)">
+                    <path id="Shape_1_" class="st2"
+                        d="M103.5,51.8c0.9,0,1.7-0.8,1.7-1.7v-9.6c0-4.4-3.6-7.9-7.9-7.9H74.7c-4.4,0-7.9,3.6-7.9,7.9
+          v18.9c0,4.4,3.6,7.9,7.9,7.9h26.2c2.6,0,4.8,2.2,4.8,4.8l0,0c0,0.2-0.2,0.3-0.3,0.3H74.7c-7.2,0.1-13-5.7-13-12.9V40.6
+          c0-7.2,5.8-13,13-13h22.6c7.2,0,13,5.8,13,13v10.2v0.8c0,3.7-3,6.8-6.8,6.8H90.3c-0.2,0-0.3,0.2-0.3,0.3v5.6
+          c0,0.2-0.2,0.3-0.3,0.3H89c-4.2,0-5.1-2.5-5.1-5.5v-0.7c0-0.2-0.2-0.3-0.3-0.3h-4.2c-0.2,0-0.3,0.2-0.3,0.3V64
+          c0,0.2-0.1,0.3-0.3,0.3l-2.2,0.1c-2.3,0-3.9-2-3.9-4.3v-16c0-0.2,0.2-0.3,0.3-0.3h1.2c2.5,0,4.5,2.1,4.5,4.5v3.4
+          c0,0.2,0.2,0.3,0.3,0.3h4.5c0.2,0,0.3-0.2,0.3-0.3v-8.2c0-0.2,0.2-0.3,0.3-0.3h1.5c2.5,0,4.5,2.1,4.5,4.5V52L103.5,51.8z" />
+                </g>
+            </g>
+        </svg>
+    </div>
+
+    <a href="index.html">
+        <svg version="1.1" id="ehoxlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 52 48" style="enable-background:new 0 0 52 48;" xml:space="preserve">
+            <g id="Website">
+                <g id="Home" transform="translate(-60.000000, -26.000000)">
+                    <path id="Shape_1_" class="st0"
+                        d="M103.5,51.8c0.9,0,1.7-0.8,1.7-1.7v-9.6c0-4.4-3.6-7.9-7.9-7.9H74.7c-4.4,0-7.9,3.6-7.9,7.9
+           v18.9c0,4.4,3.6,7.9,7.9,7.9h26.2c2.6,0,4.8,2.2,4.8,4.8l0,0c0,0.2-0.2,0.3-0.3,0.3H74.7c-7.2,0.1-13-5.7-13-12.9V40.6
+           c0-7.2,5.8-13,13-13h22.6c7.2,0,13,5.8,13,13v10.2v0.8c0,3.7-3,6.8-6.8,6.8H90.3c-0.2,0-0.3,0.2-0.3,0.3v5.6
+           c0,0.2-0.2,0.3-0.3,0.3H89c-4.2,0-5.1-2.5-5.1-5.5v-0.7c0-0.2-0.2-0.3-0.3-0.3h-4.2c-0.2,0-0.3,0.2-0.3,0.3V64
+           c0,0.2-0.1,0.3-0.3,0.3l-2.2,0.1c-2.3,0-3.9-2-3.9-4.3v-16c0-0.2,0.2-0.3,0.3-0.3h1.2c2.5,0,4.5,2.1,4.5,4.5v3.4
+           c0,0.2,0.2,0.3,0.3,0.3h4.5c0.2,0,0.3-0.2,0.3-0.3v-8.2c0-0.2,0.2-0.3,0.3-0.3h1.5c2.5,0,4.5,2.1,4.5,4.5V52L103.5,51.8z" />
+                </g>
+            </g>
+        </svg>
+    </a>
+
+    <div class="container container-start f-div">
+        <div class="row text-center">
+            <div class="col-lg-12 project-title">
+                <span class='small'>Robert Walters Hackathon | TVNZ</span>
+                <h1 class="project-header">Solution for TVNZ problem scenario</h1>
+                <img src="img/tvnz.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 description">
+                <h3 class="line">Company</h3>
+                <ul class="project-list">
+                    <li>TVNZ</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 description">
+                <h3 class="line">My design process</h3>
+                <ul class="project-list">
+                    <li>Front End Development</li>
+                    <li>UI/UX Design</li>
+                    <li>Graphic Design</li>
+                    <li>User Research / Target Audience</li>
+                    <li>Wireframing</li>
+                    <li>Prototyping & UML Diagrams</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 description">
+                <h3 class="line">Year</h3>
+                <ul class="project-list">
+                    <li>2018</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container container-title">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>The Robert Walters 2018 | TVNZ | Winner
+                </h1>
+                <a href="http://erind.hoxha.yoobee.net.nz/tvnzhack/index.html" target="_blank">
+                    <button type="button" target="_blank" class="cta-button-black"
+                        style="border: 2px solid black">Website</button>
+                </a>
+                <a href="https://www.robertwalters.co.nz/hiring/hiring-advice/Robert-Walters-Hackathon-2018.html" target="_blank">
+                    <button type="button" target="_blank" class="cta-button-black"
+                        style="border: 2px solid black">Hackathon website</button>
+                </a>
+                <a href="img/Hackathon-Presentation.pdf" target="_blank" download>
+                    <button type="button" target="_blank" class="cta-button-black"
+                        style="border: 2px solid black">Hackathon PDF Presentation</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-grey">
+        <div class="container case-study">
+            <div class="row row-projects">
+                <div class="col-lg-6">
+                    <p class="small">Getting Started</p>
+                    <h1>
+                        Client brief
+                    </h1>
+                    <p class="small">The Robert Walters 2018 Hackathon took place in Auckland this August, with over 50 technology graduates ready to participate in the two-day event, solving one of five real-world problems. With the support of our business partners, TVNZ, Harmoney, The Instillery and IAG there were five different real-world problems that needed a real-world solution. The problems ranged from improving the employee induction process at IAG to getting more content in front of viewers for TVNZ. </p>
+                    <p class="small">The 14 teams had one and a half days to ‘hack’ and present their solution to the judging panel. The panel was made up of Shay Peters from Robert Walters New Zealand, Rohan Aggrawal from AMP, and Simon Reedy and Rhiannon White from Westpac.</p>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <img class="case-study-image" src="img/Hackathon_Day 1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/dotapopquizimages.png" alt="">
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Design</p>
+                    <h1>
+                        Icons
+                    </h1>
+                    <p class="small">Icons are all developed using pexels, Adobe Illustrator and Photoshop.
+                    </p>
+                    <p class="small">In the website we've used 3 different type of images, Low Quality, Medium Quality
+                        and High Quality.</p>
+                    <p class="small">I've compressed the images and the files so the website loading time could be under
+                        2 seconds and download to be under 2 megabytes. </p>
+
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Google analytics
+                    </h1>
+                    <p class="small">While doing some Google analytics research, I've found out that users mostly use
+                        the app around 3-5 minutes.
+                    </p>
+                    <p class="small">Which this issue led me to use HotJar to check the users heatmap, and the funnel of
+                        why the users are not using the app.
+                    </p>
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" src="img/googleanalytics2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+                <div class="col-lg-6 mt-5 pt-5 order-two">
+                    <img class="case-study-image" style="width:330px" src="img/heatmap1.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Heatmap Mobile
+                    </h1>
+                    <p class="small">I've started to do some research about the competitors, we came up with a Low-Fi
+                        sketch.</p>
+                    <p class="small">Tried to solve the problem of ordering both Accommodation & Transport at the same
+                        time.</p>
+                    <p class="small">With this wireframe I concluded that two inputs would be used from Accommodation &
+                        Transport, and the other two for dates before/after.</p>
+                    <p class="small">Sometimes the users click accidentally, so we've added a button called "Search" to
+                        activate the search results.</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Heatmap Desktop
+                    </h1>
+                    <p class="small">The UML Diagram is pretty straight forward, which shows the user how would use it.
+                    </p>
+                    <p class="small">The key element for the user was the search, find and funnel the path to the pay
+                        options.</p>
+                    <p class="small">For best user experience, we've used this UML Diagram to show the potential of
+                        simplifying the website into a better user experience website.</p>
+
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <img class="case-study-image" style="width:100%" src="img/heatmap2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5 order-2">
+                    <p class="small">Research</p>
+                    <h1>
+                        Google Analytics
+                    </h1>
+                    <p class="small">As part of the heatmap the analytics improved: </p>
+                    <p class="small">We've fixed some issues with the sidebar opening late, while the heatmap gave as a
+                        hint of which part of the app is not working properly. </p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5 order-0">
+                    <img class="case-study-image" src="img/googleanalytics3.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5 order-two">
+                    <img class="case-study-image" style="width:330px" src="img/googleanalytics4.png" alt="">
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research</p>
+                    <h1>
+                        Google analytics
+                    </h1>
+                    <p class="small">We've made the game responsive, for all devices.</p>
+                    <p class="small">I've tried to make a few exceptions of what to show when the user is on mobile
+                        version, so I've decided to check first how many % of the users are playing the game from their
+                        phone.</p>
+                    <p class="small">From the research it came out that 42.9% of the users use phones, and we've focused
+                        into improving the mobile phone user experience..</p>
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">DESIGN</p>
+                    <h1>
+                        Google analytics
+                    </h1>
+                    <p class="small">Another issue was the timezone of New Zealand and the other states.</p>
+                    <p class="small">When I've had to post a new level on Facebook, I've made sure I came back to this
+                        page and check the best users time when it's the most appropriate for them.</p>
+                </div>
+
+                <div class="col-lg-6 mt-5 pt-5 text-center">
+                    <img class="case-study-image" style="width:330px" src="img/googleanalytics5.png" alt="">
+                </div>
+            </div>
+
+            <div class="row row-projects">
+                <div class="col-lg-6 mt-5 pt-5 text-center">
+                    <img class="case-study-image" style="width:100%" src="img/gadsense2.png" alt="">
+                </div>
+                <div class="col-lg-6 mt-5 pt-5">
+                    <p class="small">Research3</p>
+                    <h1>
+                        Google Adsense
+                    </h1>
+                    <p class="small">Another issue we've countered with Google Adsense was that the first days when the
+                        App was launched, people were using Ad-block, so the revenue went really slow.</p>
+                    <p class="small">We've wanted to remove the, but we've left it for testing purposes. </p>
+                </div>
+            </div>
+
+            <div class="container container-title">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1>You can see the final website here and thank you for reading!</h1>
+                        <a href="http://erind.hoxha.yoobee.net.nz/tvnzhack/index.html" target="_blank">
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">Website</button>
+                        </a>
+                        <a href="https://www.robertwalters.co.nz/hiring/hiring-advice/Robert-Walters-Hackathon-2018.html" target="_blank">
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">Hackathon website</button>
+                        </a>
+                        <a href="img/Hackathon-Presentation.pdf" target="_blank" download>
+                            <button type="button" target="_blank" class="cta-button-black"
+                                style="border: 2px solid black">Hackathon PDF Presentation</button>
+                        </a>
+                        <br>
+                        <button type="button" target="_blank" class="go-up-button" style="border:none;">Go up <i
+                                class="fas fa-chevron-up"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer text-center mt-3 mb-3">
+            <p>Developed by erindhox.</p>
+        </div>
+    </div>
+    </div>
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga = function () {
+            ga.q.push(arguments)
+        };
+        ga.q = [];
+        ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('set', 'transport', 'beacon');
+        ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>

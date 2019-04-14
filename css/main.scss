@@ -90,6 +90,23 @@ $white: rgb(230, 230, 230);
         font-size:40px;
     }
 }
+
+.cta-button-see {
+    margin-top:30px;
+    font-family:'Track';
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+    padding:10px 40px;
+    transition:0.3s ease;
+}
+.cta-button-see:hover {
+    background-color:black;
+    color:white;
+}
+.answer {
+    font-style:italic;
+}
 @keyframes float {
     0% {
       transform: translatey(0px);
@@ -119,6 +136,7 @@ $white: rgb(230, 230, 230);
     padding:10px 40px;
     transition:0.3s ease;
   }
+
   .main-go-up {
     display:none;
     border:none;
@@ -243,7 +261,7 @@ body {
     }
     height:101vh;
     position:fixed;
-    z-index:99999;
+    z-index:999999999999;
     background-color:black;
     width:100%;
     display:flex;
