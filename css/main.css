@@ -84,9 +84,9 @@
 }
 
 .subtitle {
+  cursor: default;
   letter-spacing: 2px;
   transition: 0.4s ease;
-  cursor: pointer;
 }
 
 .subtitle:hover {
@@ -94,8 +94,8 @@
 }
 
 .title {
+  cursor: default;
   transition: 0.4s ease;
-  cursor: pointer;
 }
 
 .title:hover {
@@ -195,7 +195,6 @@ html {
 .subtitle {
   letter-spacing: 2px;
   transition: 0.4s ease;
-  cursor: pointer;
 }
 
 .subtitle:hover {
@@ -204,7 +203,6 @@ html {
 
 .title {
   transition: 0.4s ease;
-  cursor: pointer;
 }
 
 .title:hover {
@@ -772,7 +770,6 @@ h3 {
 .subtitle {
   letter-spacing: 2px;
   transition: 0.4s ease;
-  cursor: pointer;
 }
 
 .subtitle:hover {
@@ -781,7 +778,6 @@ h3 {
 
 .title {
   transition: 0.4s ease;
-  cursor: pointer;
 }
 
 .title:hover {
