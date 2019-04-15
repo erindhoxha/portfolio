@@ -144,7 +144,6 @@ jQuery.extend(jQuery.easing, {
     $(ellipses).remove();
   }
   
-  
   function replacePolygonsWithPaths(parentElement) {
   
     var polygons = $(parentElement).find('polygon');

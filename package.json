@@ -6,7 +6,9 @@
   "directories": {
     "doc": "doc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "animejs": "^3.0.1"
+  },
   "devDependencies": {
     "sass": "^1.18.0"
   },
