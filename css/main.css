@@ -151,8 +151,20 @@
     margin-left: 0px;
   }
 }
+.icon, button, .cta-button.portfolio-button {
+  transform: translateY(150px);
+}
+
 #Shape_2_:hover {
   fill: rgba(0, 0, 0, 0.258);
+}
+
+.container-contact {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
 .navbar a {

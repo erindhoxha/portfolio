@@ -26,8 +26,16 @@ $white: rgb(230, 230, 230);
 @import '_sidebar.scss';
 @import '_header.scss';
 @import 'media-queries';
+@import 'animation';
 #Shape_2_:hover {
     fill: rgba(0, 0, 0, 0.258);
+}
+.container-contact {
+    height:50vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
 }
 .navbar {
     a {
