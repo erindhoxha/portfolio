@@ -23,6 +23,7 @@
 $blackDark: #181818;
 $blackLight: #252627;
 $white: rgb(230, 230, 230);
+@import '_confetti.scss';
 @import '_sidebar.scss';
 @import '_header.scss';
 @import 'media-queries';
@@ -168,7 +169,7 @@ $white: rgb(230, 230, 230);
     bottom:20px;
     right:20px;
     animation: float 2s ease-in-out infinite;
-    z-index:9999999999;
+    z-index:2;
   }
 .cta-button {
     margin-top:10px;
@@ -219,7 +220,7 @@ button {
     cursor: default;
 }
 #logo-front {
-    z-index: -999;
+    z-index: -1;
     width:800px;
     position:absolute;
     right:50px;
@@ -282,7 +283,7 @@ body {
     }
     height:101vh;
     position:fixed;
-    z-index:999999999999;
+    z-index:3;
     background-color:black;
     width:100%;
     display:flex;
@@ -705,4 +706,7 @@ textarea {
 .case-btn:hover {
     background-color:transparent;
     color:white;
+}
+.hero-items {
+    transition:5s ease-in-out;
 }

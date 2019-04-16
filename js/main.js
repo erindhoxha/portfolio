@@ -5,7 +5,6 @@ $(".go-down, .cta-button").click(function() {
   }, 1000);
 });
 
-$("body").css('overflow', 'hidden');
 $(".loader").fadeIn();
 setTimeout(() => {
 $("body").css('overflow', 'unset');
