@@ -5,13 +5,42 @@ $(".go-down, .cta-button").click(function() {
   }, 1000);
 });
 
+function runAnimations() {
+  anime({
+    targets: '.icon',
+    translateY: 0,
+    duration: 1400,
+    easing: 'linear',
+    direction: 'alternate',
+  });
+    anime({
+    targets: 'button, .cta-button.portfolio-button',
+    translateY: 0,
+    duration: 1400,
+    easing: 'linear',
+    direction: 'alternate',
+  });
+}
+
+
 $(".loader").fadeIn();
-setTimeout(() => {
-$("body").css('overflow', 'unset');
-$(".loader").fadeOut(300);
-startSVGAnimation($('#logo-front'));
-runAnimations();
-}, 1200);
+
+if ($("#body-project").length > 0) {
+  setTimeout(() => {
+    $("body").css('overflow', 'unset');
+    $(".loader").fadeOut(300);
+    startSVGAnimation($('#logo-front'));
+    }, 1200);
+} else {
+  setTimeout(() => {
+    $("body").css('overflow', 'unset');
+    $(".loader").fadeOut(300);
+    startSVGAnimation($('#logo-front'));
+    runAnimations();
+    }, 2200);
+}
+
+
 
 
 $(function(){
