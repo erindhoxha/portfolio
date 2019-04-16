@@ -22,12 +22,12 @@ body {
 }
 
 .project-title img {
-  width: 100%;
+  width: 70%;
 }
 
 .project-header {
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 600;
   margin-bottom: 0px;
 }
 
@@ -118,16 +118,12 @@ body {
     margin-top: 0px !important;
   }
 
-  .container-start {
-    margin-bottom: 50px;
-  }
-
   .container-grey {
     padding-top: 0px !important;
   }
 }
 .bold {
-  font-weight: 900;
+  font-weight: 500;
   color: #8c00ff;
 }
 
