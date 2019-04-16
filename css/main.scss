@@ -39,14 +39,7 @@ $white: rgb(230, 230, 230);
     align-items: center;
     color:white;
 }
-.navbar {
-    a {
-        color:rgba(255,255,255,0.7);
-        i {
-            font-size:25px;
-        }
-    }
-}
+
 #Shape_2_ {
     transition: 0.3s ease;
 }
@@ -158,6 +151,7 @@ $white: rgb(230, 230, 230);
     color:black;
     padding:10px 40px;
     transition:0.3s ease;
+    text-decoration: underline;
   }
 
   .main-go-up {
@@ -171,6 +165,7 @@ $white: rgb(230, 230, 230);
     right:20px;
     animation: float 2s ease-in-out infinite;
     z-index:2;
+    text-decoration: underline;
   }
 .cta-button {
     margin-top:10px;
@@ -229,9 +224,7 @@ button {
 .code {
     color:rgb(146, 146, 146);
 }
-.navbar {
-    display:none;
-}
+
 .code-body {
     top:30px;
     position:absolute;
@@ -329,10 +322,13 @@ a #ehoxlogo {
   }
 }
 
+
+
 .project-row {
     padding:80px 20px 80px 20px;
     img {
         width:100%;
+        max-width:850px;
     }
 }
 .container-center {
@@ -530,99 +526,6 @@ textarea {
 }
 
  
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-   @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
-
- 
-/* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
-   https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
-
-   @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links that are fragment identifiers,
-     * or use the `javascript:` pseudo protocol
-     */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    /*
-     * Printing Tables:
-     * http://css-discuss.incutio.com/wiki/Printing_Tables
-     */
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
 
 
 .tools-collection {
