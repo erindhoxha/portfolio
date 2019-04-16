@@ -150,6 +150,71 @@
   .first-div .cta-button {
     margin-left: 0px;
   }
+
+  .project-brief-text {
+    font-size: 24px;
+  }
+
+  .project-description {
+    font-size: 17px;
+  }
+
+  .first-div .text-erind {
+    font-size: 55px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-go-up {
+    bottom: 20px !important;
+    right: 30px !important;
+    padding: 0px !important;
+  }
+
+  .project h1 {
+    font-size: 30px;
+  }
+
+  .tools-collection {
+    display: none;
+  }
+
+  .go-down {
+    display: none;
+  }
+
+  .code {
+    width: 100%;
+  }
+
+  .first-div .h1-shadow {
+    text-shadow: none;
+  }
+  .first-div .h2-shadow {
+    text-shadow: none !important;
+  }
+  .first-div .subtitle {
+    font-size: 25px !important;
+    width: 90%;
+  }
+
+  .cta-button-contact {
+    margin-left: 0px !important;
+  }
+
+  .col-lg-6 h1 {
+    margin-top: 30px;
+  }
+
+  .order-two {
+    order: 2;
+  }
+
+  .button-container {
+    text-align: center;
+  }
+  .button-container button {
+    margin-top: 10px;
+  }
 }
 .icon, button, .cta-button.portfolio-button {
   transform: translateY(150px);
@@ -805,61 +870,15 @@ h3 {
     margin-top: 30px;
   }
 }
-@media only screen and (max-width: 600px) {
-  .main-go-up {
-    bottom: 20px !important;
-    right: 30px !important;
-    padding: 0px !important;
-  }
+.case-btn {
+  background-color: white;
+  color: black;
+  font-weight: 600;
+}
 
-  .project h1 {
-    font-size: 30px;
-  }
-
-  .tools-collection {
-    display: none;
-  }
-
-  .go-down {
-    display: none;
-  }
-
-  .code {
-    width: 100%;
-  }
-
-  .first-div .h1-shadow {
-    text-shadow: none;
-  }
-  .first-div .h2-shadow {
-    text-shadow: none !important;
-  }
-  .first-div .subtitle {
-    font-size: 25px !important;
-    width: 90%;
-  }
-  .first-div .title {
-    font-size: 40px !important;
-  }
-
-  .cta-button-contact {
-    margin-left: 0px !important;
-  }
-
-  .col-lg-6 h1 {
-    margin-top: 30px;
-  }
-
-  .order-two {
-    order: 2;
-  }
-
-  .button-container {
-    text-align: center;
-  }
-  .button-container button {
-    margin-top: 10px;
-  }
+.case-btn:hover {
+  background-color: transparent;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
