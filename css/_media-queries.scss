@@ -48,6 +48,21 @@
 }
 // FOR THE MAIN PAGE
 @media only screen and (max-width:600px) {
+    .project-title {
+        img {
+            margin-bottom:50px;
+        }
+    }
+    .small {
+        overflow:hidden;
+    }
+    .case-study-image {
+        width:100% !important;
+    }
+    .description {
+        padding-bottom:25px !important;
+        padding-top:25px !important;
+    }
     .first-div {
         .cta-button {
             margin-left: 0px;
