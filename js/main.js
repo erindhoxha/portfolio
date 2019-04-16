@@ -14,7 +14,7 @@ function runAnimations() {
     direction: 'alternate',
   });
     anime({
-    targets: 'button, .cta-button.portfolio-button',
+    targets: 'button, .cta-button.portfolio-button, i, .text-erind',
     translateY: 0,
     duration: 1400,
     easing: 'linear',
