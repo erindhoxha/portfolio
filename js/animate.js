@@ -16,3 +16,17 @@ function runAnimations() {
 }
 
 
+
+
+
+$('.preview-btn').click(function () {
+  $('.pop-up').addClass('open');
+  $("#video-box").empty();
+  $("#video-box").append('<video id="video" autoplay><source src="img/debugcon-video.mp4" type="video/mp4"></video>')
+});
+
+$('.pop-up .close, .pop-up').click(function () {
+  $('.pop-up').removeClass('open');
+});
+
+
