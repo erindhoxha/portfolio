@@ -29,14 +29,14 @@
 }
 
 .confetti-0 {
-  width: 5px;
-  height: 2px;
+  width: 7px;
+  height: 2.8px;
   background-color: #263672;
   top: -10%;
-  left: 62%;
-  opacity: 0.8191589933;
-  transform: rotate(230.2129721345deg);
-  animation: drop-0 4.3731818393s 0.2314167607s infinite;
+  left: 61%;
+  opacity: 0.8390691761;
+  transform: rotate(17.2117705636deg);
+  animation: drop-0 4.7144339088s 0.8366337066s infinite;
 }
 
 @keyframes drop-0 {
@@ -50,254 +50,254 @@
   height: 2px;
   background-color: #263672;
   top: -10%;
-  left: 49%;
-  opacity: 1.4112132648;
-  transform: rotate(174.5049230707deg);
-  animation: drop-1 4.9888921297s 0.2905589106s infinite;
+  left: 31%;
+  opacity: 1.2007985082;
+  transform: rotate(130.4630613145deg);
+  animation: drop-1 4.3080219412s 0.4452823966s infinite;
 }
 
 @keyframes drop-1 {
   100% {
     top: 110%;
-    left: 57%;
+    left: 39%;
   }
 }
 .confetti-2 {
-  width: 3px;
-  height: 1.2px;
+  width: 2px;
+  height: 0.8px;
   background-color: #263672;
   top: -10%;
-  left: 34%;
-  opacity: 1.332484145;
-  transform: rotate(75.2817467654deg);
-  animation: drop-2 4.846292313s 0.8223182492s infinite;
+  left: 47%;
+  opacity: 1.117417585;
+  transform: rotate(100.6432343606deg);
+  animation: drop-2 4.198488163s 0.8590479992s infinite;
 }
 
 @keyframes drop-2 {
   100% {
     top: 110%;
-    left: 37%;
+    left: 53%;
   }
 }
 .confetti-3 {
-  width: 2px;
-  height: 0.8px;
-  background-color: #d13447;
+  width: 4px;
+  height: 1.6px;
+  background-color: #263672;
   top: -10%;
-  left: 69%;
-  opacity: 0.9592321539;
-  transform: rotate(23.1579492822deg);
-  animation: drop-3 4.8929692274s 0.1801839287s infinite;
+  left: 83%;
+  opacity: 0.8555634842;
+  transform: rotate(130.9814611025deg);
+  animation: drop-3 4.9572021766s 0.7945199841s infinite;
 }
 
 @keyframes drop-3 {
   100% {
     top: 110%;
-    left: 75%;
+    left: 94%;
   }
 }
 .confetti-4 {
-  width: 2px;
-  height: 0.8px;
+  width: 6px;
+  height: 2.4px;
   background-color: #263672;
   top: -10%;
-  left: 82%;
-  opacity: 1.3979261336;
-  transform: rotate(30.0375509582deg);
-  animation: drop-4 4.9093783099s 0.7933518854s infinite;
+  left: 34%;
+  opacity: 0.9744969213;
+  transform: rotate(141.8716554162deg);
+  animation: drop-4 4.6586539841s 0.7255790633s infinite;
 }
 
 @keyframes drop-4 {
   100% {
     top: 110%;
-    left: 91%;
+    left: 39%;
   }
 }
 .confetti-5 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #263672;
+  width: 6px;
+  height: 2.4px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 72%;
-  opacity: 0.7563220493;
-  transform: rotate(327.0174600051deg);
-  animation: drop-5 4.5745225884s 0.6476409455s infinite;
+  left: 2%;
+  opacity: 0.7530852226;
+  transform: rotate(219.876550778deg);
+  animation: drop-5 4.7092551417s 0.737628148s infinite;
 }
 
 @keyframes drop-5 {
   100% {
     top: 110%;
-    left: 75%;
+    left: 4%;
   }
 }
 .confetti-6 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #ffbf00;
+  width: 5px;
+  height: 2px;
+  background-color: #263672;
   top: -10%;
-  left: 95%;
-  opacity: 0.7320985647;
-  transform: rotate(239.5883840407deg);
-  animation: drop-6 4.4548511524s 0.3254565487s infinite;
+  left: 92%;
+  opacity: 1.2033896872;
+  transform: rotate(332.2770324721deg);
+  animation: drop-6 4.8681059647s 0.7310517764s infinite;
 }
 
 @keyframes drop-6 {
   100% {
     top: 110%;
-    left: 109%;
+    left: 107%;
   }
 }
 .confetti-7 {
   width: 1px;
   height: 0.4px;
-  background-color: #d13447;
+  background-color: #ffbf00;
   top: -10%;
-  left: 43%;
-  opacity: 0.6952037121;
-  transform: rotate(255.7181037997deg);
-  animation: drop-7 4.0232318064s 0.5072560099s infinite;
+  left: 68%;
+  opacity: 0.5681364442;
+  transform: rotate(247.6822212022deg);
+  animation: drop-7 4.6629341977s 0.8268453303s infinite;
 }
 
 @keyframes drop-7 {
   100% {
     top: 110%;
-    left: 55%;
+    left: 76%;
   }
 }
 .confetti-8 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #d13447;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 30%;
-  opacity: 0.8394035473;
-  transform: rotate(171.7268460302deg);
-  animation: drop-8 4.5177305865s 0.7664910313s infinite;
+  left: 85%;
+  opacity: 1.3336925662;
+  transform: rotate(225.3915339597deg);
+  animation: drop-8 4.5799556051s 0.4532466546s infinite;
 }
 
 @keyframes drop-8 {
   100% {
     top: 110%;
-    left: 35%;
+    left: 93%;
   }
 }
 .confetti-9 {
-  width: 7px;
-  height: 2.8px;
+  width: 1px;
+  height: 0.4px;
   background-color: #d13447;
   top: -10%;
-  left: 14%;
-  opacity: 0.5010839948;
-  transform: rotate(259.2503162591deg);
-  animation: drop-9 4.3198855482s 0.2817616073s infinite;
+  left: 85%;
+  opacity: 0.9055261785;
+  transform: rotate(24.0615746656deg);
+  animation: drop-9 4.0385867819s 0.7798435446s infinite;
 }
 
 @keyframes drop-9 {
   100% {
     top: 110%;
-    left: 29%;
+    left: 97%;
   }
 }
 .confetti-10 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #263672;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 51%;
-  opacity: 1.1956538738;
-  transform: rotate(86.9953013125deg);
-  animation: drop-10 4.562059641s 0.182118043s infinite;
+  left: 36%;
+  opacity: 1.2200942175;
+  transform: rotate(108.5239271821deg);
+  animation: drop-10 4.19846396s 0.4422167063s infinite;
 }
 
 @keyframes drop-10 {
   100% {
     top: 110%;
-    left: 61%;
+    left: 42%;
   }
 }
 .confetti-11 {
-  width: 8px;
-  height: 3.2px;
+  width: 6px;
+  height: 2.4px;
   background-color: #ffbf00;
   top: -10%;
-  left: 39%;
-  opacity: 1.1368577048;
-  transform: rotate(151.0748382453deg);
-  animation: drop-11 4.98399367s 0.0713816275s infinite;
+  left: 90%;
+  opacity: 1.2769507236;
+  transform: rotate(108.4487910973deg);
+  animation: drop-11 4.6634552941s 0.3185297324s infinite;
 }
 
 @keyframes drop-11 {
   100% {
     top: 110%;
-    left: 49%;
+    left: 101%;
   }
 }
 .confetti-12 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #263672;
+  width: 8px;
+  height: 3.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 50%;
-  opacity: 1.0139438072;
-  transform: rotate(297.5704756085deg);
-  animation: drop-12 4.7089472145s 0.3178607309s infinite;
+  left: 76%;
+  opacity: 0.9248502923;
+  transform: rotate(10.2279732093deg);
+  animation: drop-12 4.1186816105s 0.2136383233s infinite;
 }
 
 @keyframes drop-12 {
   100% {
     top: 110%;
-    left: 61%;
+    left: 85%;
   }
 }
 .confetti-13 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #d13447;
+  width: 6px;
+  height: 2.4px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 67%;
-  opacity: 0.7320085962;
-  transform: rotate(149.2143875988deg);
-  animation: drop-13 4.9311700164s 0.9910374321s infinite;
+  left: 58%;
+  opacity: 0.933139247;
+  transform: rotate(168.0689103311deg);
+  animation: drop-13 4.732919834s 0.2179746604s infinite;
 }
 
 @keyframes drop-13 {
   100% {
     top: 110%;
-    left: 74%;
+    left: 60%;
   }
 }
 .confetti-14 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #263672;
+  width: 6px;
+  height: 2.4px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 60%;
-  opacity: 0.8253294163;
-  transform: rotate(305.5050112061deg);
-  animation: drop-14 4.7611642769s 0.4433534774s infinite;
+  left: 29%;
+  opacity: 0.6748777821;
+  transform: rotate(201.8986715176deg);
+  animation: drop-14 4.9256874425s 0.9706143577s infinite;
 }
 
 @keyframes drop-14 {
   100% {
     top: 110%;
-    left: 69%;
+    left: 34%;
   }
 }
 .confetti-15 {
-  width: 1px;
-  height: 0.4px;
+  width: 7px;
+  height: 2.8px;
   background-color: #ffbf00;
   top: -10%;
-  left: 9%;
-  opacity: 1.4556165212;
-  transform: rotate(260.6680018644deg);
-  animation: drop-15 4.6505233205s 0.1367377423s infinite;
+  left: 31%;
+  opacity: 0.9038178698;
+  transform: rotate(143.4024588066deg);
+  animation: drop-15 4.7922494771s 0.8366672616s infinite;
 }
 
 @keyframes drop-15 {
   100% {
     top: 110%;
-    left: 19%;
+    left: 44%;
   }
 }
 .confetti-16 {
@@ -305,152 +305,152 @@
   height: 1.6px;
   background-color: #d13447;
   top: -10%;
-  left: 78%;
-  opacity: 0.8814915898;
-  transform: rotate(183.7501735398deg);
-  animation: drop-16 4.2046254834s 0.1506249231s infinite;
+  left: 2%;
+  opacity: 1.2043601887;
+  transform: rotate(92.4942722383deg);
+  animation: drop-16 4.0147572221s 0.371982973s infinite;
 }
 
 @keyframes drop-16 {
   100% {
     top: 110%;
-    left: 87%;
+    left: 4%;
   }
 }
 .confetti-17 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #263672;
+  width: 8px;
+  height: 3.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 44%;
-  opacity: 1.3849884649;
-  transform: rotate(226.5952129807deg);
-  animation: drop-17 4.370438771s 0.658524848s infinite;
+  left: 42%;
+  opacity: 1.4165555323;
+  transform: rotate(215.5209798176deg);
+  animation: drop-17 4.5166457699s 0.9717691013s infinite;
 }
 
 @keyframes drop-17 {
   100% {
     top: 110%;
-    left: 46%;
+    left: 43%;
   }
 }
 .confetti-18 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 53%;
-  opacity: 0.5500562658;
-  transform: rotate(296.8051696403deg);
-  animation: drop-18 4.5170641884s 0.3626974054s infinite;
+  left: 49%;
+  opacity: 1.4454151636;
+  transform: rotate(19.2486267218deg);
+  animation: drop-18 4.8249567959s 0.6733938266s infinite;
 }
 
 @keyframes drop-18 {
   100% {
     top: 110%;
-    left: 66%;
+    left: 61%;
   }
 }
 .confetti-19 {
   width: 1px;
   height: 0.4px;
-  background-color: #d13447;
+  background-color: #ffbf00;
   top: -10%;
-  left: 34%;
-  opacity: 0.671226934;
-  transform: rotate(345.9299479888deg);
-  animation: drop-19 4.7263354015s 0.2069595392s infinite;
+  left: 28%;
+  opacity: 0.833759621;
+  transform: rotate(269.6078117941deg);
+  animation: drop-19 4.8404047621s 0.7989952555s infinite;
 }
 
 @keyframes drop-19 {
   100% {
     top: 110%;
-    left: 37%;
+    left: 36%;
   }
 }
 .confetti-20 {
-  width: 1px;
-  height: 0.4px;
+  width: 4px;
+  height: 1.6px;
   background-color: #263672;
   top: -10%;
-  left: 21%;
-  opacity: 1.2190034901;
-  transform: rotate(140.5801943208deg);
-  animation: drop-20 4.9947885174s 0.4153296116s infinite;
+  left: 17%;
+  opacity: 0.8069733755;
+  transform: rotate(78.6407297744deg);
+  animation: drop-20 4.0700318996s 0.5226417101s infinite;
 }
 
 @keyframes drop-20 {
   100% {
     top: 110%;
-    left: 32%;
+    left: 31%;
   }
 }
 .confetti-21 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #ffbf00;
+  width: 3px;
+  height: 1.2px;
+  background-color: #263672;
   top: -10%;
-  left: 4%;
-  opacity: 1.2095117967;
-  transform: rotate(0.7147043511deg);
-  animation: drop-21 4.6066702216s 0.2977592128s infinite;
+  left: 26%;
+  opacity: 0.6047251877;
+  transform: rotate(183.1822016141deg);
+  animation: drop-21 4.0233997593s 0.3937006177s infinite;
 }
 
 @keyframes drop-21 {
   100% {
     top: 110%;
-    left: 11%;
+    left: 33%;
   }
 }
 .confetti-22 {
-  width: 3px;
-  height: 1.2px;
+  width: 5px;
+  height: 2px;
   background-color: #d13447;
   top: -10%;
-  left: 73%;
-  opacity: 1.2452993702;
-  transform: rotate(28.8530840781deg);
-  animation: drop-22 4.1377879288s 0.1944697982s infinite;
+  left: 37%;
+  opacity: 1.1605197802;
+  transform: rotate(199.6656124017deg);
+  animation: drop-22 4.1483429364s 0.0719674184s infinite;
 }
 
 @keyframes drop-22 {
   100% {
     top: 110%;
-    left: 79%;
+    left: 46%;
   }
 }
 .confetti-23 {
-  width: 5px;
-  height: 2px;
-  background-color: #d13447;
+  width: 2px;
+  height: 0.8px;
+  background-color: #263672;
   top: -10%;
-  left: 72%;
-  opacity: 0.7854432137;
-  transform: rotate(72.5090303554deg);
-  animation: drop-23 4.3755494406s 0.9594862116s infinite;
+  left: 49%;
+  opacity: 1.0601358085;
+  transform: rotate(33.8297173849deg);
+  animation: drop-23 4.00301535s 0.709640524s infinite;
 }
 
 @keyframes drop-23 {
   100% {
     top: 110%;
-    left: 82%;
+    left: 59%;
   }
 }
 .confetti-24 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #d13447;
+  width: 7px;
+  height: 2.8px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 91%;
-  opacity: 0.9978182527;
-  transform: rotate(203.8643158713deg);
-  animation: drop-24 4.3376604012s 0.0807307139s infinite;
+  left: 14%;
+  opacity: 1.1232021396;
+  transform: rotate(335.0022672971deg);
+  animation: drop-24 4.4824382296s 0.0416701426s infinite;
 }
 
 @keyframes drop-24 {
   100% {
     top: 110%;
-    left: 100%;
+    left: 22%;
   }
 }
 .confetti-25 {
@@ -458,101 +458,101 @@
   height: 0.8px;
   background-color: #d13447;
   top: -10%;
-  left: 62%;
-  opacity: 1.3354811025;
-  transform: rotate(183.9934885264deg);
-  animation: drop-25 4.1994047743s 0.1173812265s infinite;
+  left: 3%;
+  opacity: 0.6782176543;
+  transform: rotate(228.4243403077deg);
+  animation: drop-25 4.7395004298s 0.5090941702s infinite;
 }
 
 @keyframes drop-25 {
   100% {
     top: 110%;
-    left: 66%;
+    left: 17%;
   }
 }
 .confetti-26 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #ffbf00;
+  width: 7px;
+  height: 2.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 28%;
-  opacity: 1.2129383954;
-  transform: rotate(7.5684730624deg);
-  animation: drop-26 4.5775077093s 0.5385290384s infinite;
+  left: 11%;
+  opacity: 0.6615054939;
+  transform: rotate(163.0745949557deg);
+  animation: drop-26 4.2026331464s 0.4544433037s infinite;
 }
 
 @keyframes drop-26 {
   100% {
     top: 110%;
-    left: 32%;
+    left: 17%;
   }
 }
 .confetti-27 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #d13447;
+  width: 2px;
+  height: 0.8px;
+  background-color: #263672;
   top: -10%;
-  left: 46%;
-  opacity: 1.4566618374;
-  transform: rotate(61.1157307962deg);
-  animation: drop-27 4.973793478s 0.9387849193s infinite;
+  left: 95%;
+  opacity: 1.3056930687;
+  transform: rotate(201.3322514309deg);
+  animation: drop-27 4.5373546131s 0.3441479939s infinite;
 }
 
 @keyframes drop-27 {
   100% {
     top: 110%;
-    left: 51%;
+    left: 100%;
   }
 }
 .confetti-28 {
-  width: 5px;
-  height: 2px;
-  background-color: #d13447;
+  width: 7px;
+  height: 2.8px;
+  background-color: #263672;
   top: -10%;
-  left: 38%;
-  opacity: 0.8587577814;
-  transform: rotate(266.2711068568deg);
-  animation: drop-28 4.7077879995s 0.3915596123s infinite;
+  left: 72%;
+  opacity: 1.1872113193;
+  transform: rotate(80.0991653266deg);
+  animation: drop-28 4.2663929745s 0.4150537387s infinite;
 }
 
 @keyframes drop-28 {
   100% {
     top: 110%;
-    left: 46%;
+    left: 81%;
   }
 }
 .confetti-29 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #263672;
+  width: 7px;
+  height: 2.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 15%;
-  opacity: 0.7583773255;
-  transform: rotate(245.8196147221deg);
-  animation: drop-29 4.0507834383s 0.8513807674s infinite;
+  left: 69%;
+  opacity: 1.2557472943;
+  transform: rotate(343.2942637102deg);
+  animation: drop-29 4.0423371541s 0.0620990947s infinite;
 }
 
 @keyframes drop-29 {
   100% {
     top: 110%;
-    left: 23%;
+    left: 74%;
   }
 }
 .confetti-30 {
-  width: 6px;
-  height: 2.4px;
+  width: 8px;
+  height: 3.2px;
   background-color: #d13447;
   top: -10%;
-  left: 95%;
-  opacity: 1.2347704331;
-  transform: rotate(356.1800180904deg);
-  animation: drop-30 4.6448272901s 0.7189407262s infinite;
+  left: 57%;
+  opacity: 1.0685353046;
+  transform: rotate(44.6978389365deg);
+  animation: drop-30 4.3633269899s 0.6860129019s infinite;
 }
 
 @keyframes drop-30 {
   100% {
     top: 110%;
-    left: 108%;
+    left: 61%;
   }
 }
 .confetti-31 {
@@ -560,101 +560,101 @@
   height: 3.2px;
   background-color: #263672;
   top: -10%;
-  left: 32%;
-  opacity: 1.1260081759;
-  transform: rotate(177.7865536399deg);
-  animation: drop-31 4.6188299961s 0.6149682418s infinite;
+  left: 83%;
+  opacity: 0.544874079;
+  transform: rotate(56.6805779278deg);
+  animation: drop-31 4.3319793159s 0.9023040791s infinite;
 }
 
 @keyframes drop-31 {
   100% {
     top: 110%;
-    left: 37%;
+    left: 86%;
   }
 }
 .confetti-32 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #ffbf00;
+  width: 1px;
+  height: 0.4px;
+  background-color: #263672;
   top: -10%;
-  left: 50%;
-  opacity: 1.4281680076;
-  transform: rotate(194.7439863305deg);
-  animation: drop-32 4.3090915905s 0.4152530045s infinite;
+  left: 5%;
+  opacity: 0.9864177735;
+  transform: rotate(96.1685502487deg);
+  animation: drop-32 4.8606083344s 0.2083050767s infinite;
 }
 
 @keyframes drop-32 {
   100% {
     top: 110%;
-    left: 62%;
+    left: 19%;
   }
 }
 .confetti-33 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #263672;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 2%;
-  opacity: 0.6914726418;
-  transform: rotate(136.6265120794deg);
-  animation: drop-33 4.762380919s 0.9210197305s infinite;
+  left: 50%;
+  opacity: 1.1496171364;
+  transform: rotate(357.7588956183deg);
+  animation: drop-33 4.065468345s 0.6611596832s infinite;
 }
 
 @keyframes drop-33 {
   100% {
     top: 110%;
-    left: 3%;
+    left: 58%;
   }
 }
 .confetti-34 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 2px;
+  height: 0.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 2%;
-  opacity: 0.6669735264;
-  transform: rotate(198.1142368578deg);
-  animation: drop-34 4.58136501s 0.0265772357s infinite;
+  left: 91%;
+  opacity: 1.4680325511;
+  transform: rotate(133.7706647956deg);
+  animation: drop-34 4.0391597314s 0.8660699993s infinite;
 }
 
 @keyframes drop-34 {
   100% {
     top: 110%;
-    left: 12%;
+    left: 99%;
   }
 }
 .confetti-35 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #263672;
+  width: 5px;
+  height: 2px;
+  background-color: #d13447;
   top: -10%;
-  left: 6%;
-  opacity: 1.0476218665;
-  transform: rotate(286.4094065243deg);
-  animation: drop-35 4.5986434567s 0.4930732782s infinite;
+  left: 68%;
+  opacity: 0.896833045;
+  transform: rotate(259.4391912392deg);
+  animation: drop-35 4.8094451982s 0.2878693162s infinite;
 }
 
 @keyframes drop-35 {
   100% {
     top: 110%;
-    left: 19%;
+    left: 82%;
   }
 }
 .confetti-36 {
-  width: 2px;
-  height: 0.8px;
+  width: 6px;
+  height: 2.4px;
   background-color: #ffbf00;
   top: -10%;
-  left: 33%;
-  opacity: 1.1025331208;
-  transform: rotate(299.7375278412deg);
-  animation: drop-36 4.0282155473s 0.2386983357s infinite;
+  left: 53%;
+  opacity: 0.9942428459;
+  transform: rotate(66.1611187087deg);
+  animation: drop-36 4.9791899043s 0.1358190393s infinite;
 }
 
 @keyframes drop-36 {
   100% {
     top: 110%;
-    left: 38%;
+    left: 63%;
   }
 }
 .confetti-37 {
@@ -662,373 +662,373 @@
   height: 0.4px;
   background-color: #263672;
   top: -10%;
-  left: 74%;
-  opacity: 0.503829624;
-  transform: rotate(311.0825826204deg);
-  animation: drop-37 4.6738334769s 0.6394209729s infinite;
+  left: 96%;
+  opacity: 0.9153429232;
+  transform: rotate(225.8305785358deg);
+  animation: drop-37 4.7911853423s 0.9054283198s infinite;
 }
 
 @keyframes drop-37 {
   100% {
     top: 110%;
-    left: 77%;
+    left: 103%;
   }
 }
 .confetti-38 {
-  width: 5px;
-  height: 2px;
-  background-color: #d13447;
+  width: 1px;
+  height: 0.4px;
+  background-color: #263672;
   top: -10%;
-  left: 49%;
-  opacity: 1.4171150538;
-  transform: rotate(203.3440454704deg);
-  animation: drop-38 4.7474765667s 0.321826621s infinite;
+  left: 76%;
+  opacity: 0.6606060559;
+  transform: rotate(219.5363103603deg);
+  animation: drop-38 4.1402478876s 0.0368605251s infinite;
 }
 
 @keyframes drop-38 {
   100% {
     top: 110%;
-    left: 64%;
+    left: 80%;
   }
 }
 .confetti-39 {
-  width: 5px;
-  height: 2px;
+  width: 7px;
+  height: 2.8px;
   background-color: #d13447;
   top: -10%;
-  left: 72%;
-  opacity: 0.5943491297;
-  transform: rotate(139.0742618754deg);
-  animation: drop-39 4.7565300085s 0.2145172085s infinite;
+  left: 81%;
+  opacity: 0.8367205862;
+  transform: rotate(180.696964255deg);
+  animation: drop-39 4.6015623275s 0.079960083s infinite;
 }
 
 @keyframes drop-39 {
   100% {
     top: 110%;
-    left: 79%;
+    left: 91%;
   }
 }
 .confetti-40 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #d13447;
+  width: 3px;
+  height: 1.2px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 57%;
-  opacity: 1.3468634605;
-  transform: rotate(353.5521173857deg);
-  animation: drop-40 4.6812270033s 0.5425394794s infinite;
+  left: 24%;
+  opacity: 1.289820463;
+  transform: rotate(232.0017325729deg);
+  animation: drop-40 4.99135603s 0.0007427242s infinite;
 }
 
 @keyframes drop-40 {
   100% {
     top: 110%;
-    left: 63%;
+    left: 33%;
   }
 }
 .confetti-41 {
-  width: 5px;
-  height: 2px;
-  background-color: #ffbf00;
+  width: 7px;
+  height: 2.8px;
+  background-color: #263672;
   top: -10%;
-  left: 16%;
-  opacity: 1.4589752274;
-  transform: rotate(94.5241907907deg);
-  animation: drop-41 4.6745267057s 0.3607311012s infinite;
+  left: 68%;
+  opacity: 1.2814439025;
+  transform: rotate(196.835839749deg);
+  animation: drop-41 4.6851399149s 0.2635174535s infinite;
 }
 
 @keyframes drop-41 {
   100% {
     top: 110%;
-    left: 27%;
+    left: 83%;
   }
 }
 .confetti-42 {
-  width: 7px;
-  height: 2.8px;
+  width: 6px;
+  height: 2.4px;
   background-color: #d13447;
   top: -10%;
-  left: 63%;
-  opacity: 1.2172017396;
-  transform: rotate(323.5171621605deg);
-  animation: drop-42 4.8078713874s 0.9680792171s infinite;
+  left: 78%;
+  opacity: 1.239248619;
+  transform: rotate(340.7678415439deg);
+  animation: drop-42 4.2773286154s 0.1937823374s infinite;
 }
 
 @keyframes drop-42 {
   100% {
     top: 110%;
-    left: 71%;
+    left: 82%;
   }
 }
 .confetti-43 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 65%;
-  opacity: 0.5237171549;
-  transform: rotate(236.7499115232deg);
-  animation: drop-43 4.9751350105s 0.4248211241s infinite;
+  left: 67%;
+  opacity: 0.807194456;
+  transform: rotate(50.0525526173deg);
+  animation: drop-43 4.4899102783s 0.9580355147s infinite;
 }
 
 @keyframes drop-43 {
   100% {
     top: 110%;
-    left: 70%;
+    left: 79%;
   }
 }
 .confetti-44 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #ffbf00;
+  width: 5px;
+  height: 2px;
+  background-color: #d13447;
   top: -10%;
-  left: 59%;
-  opacity: 1.3722756707;
-  transform: rotate(130.2462581649deg);
-  animation: drop-44 4.5491712009s 0.7328176883s infinite;
+  left: 92%;
+  opacity: 0.748230118;
+  transform: rotate(127.5262975618deg);
+  animation: drop-44 4.7076532391s 0.9176324408s infinite;
 }
 
 @keyframes drop-44 {
   100% {
     top: 110%;
-    left: 60%;
+    left: 94%;
   }
 }
 .confetti-45 {
-  width: 1px;
-  height: 0.4px;
+  width: 2px;
+  height: 0.8px;
   background-color: #263672;
   top: -10%;
-  left: 93%;
-  opacity: 1.0931832221;
-  transform: rotate(199.7244095308deg);
-  animation: drop-45 4.0573836749s 0.2960674603s infinite;
+  left: 55%;
+  opacity: 1.4368672487;
+  transform: rotate(32.5539944795deg);
+  animation: drop-45 4.6195494407s 0.9906719255s infinite;
 }
 
 @keyframes drop-45 {
   100% {
     top: 110%;
-    left: 108%;
+    left: 66%;
   }
 }
 .confetti-46 {
-  width: 3px;
-  height: 1.2px;
+  width: 1px;
+  height: 0.4px;
   background-color: #ffbf00;
   top: -10%;
-  left: 46%;
-  opacity: 1.0555207024;
-  transform: rotate(120.6700595624deg);
-  animation: drop-46 4.2095647512s 0.5846012474s infinite;
+  left: 20%;
+  opacity: 1.1597429923;
+  transform: rotate(32.4765696057deg);
+  animation: drop-46 4.3579108638s 0.628144285s infinite;
 }
 
 @keyframes drop-46 {
   100% {
     top: 110%;
-    left: 55%;
+    left: 26%;
   }
 }
 .confetti-47 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #ffbf00;
+  width: 5px;
+  height: 2px;
+  background-color: #263672;
   top: -10%;
-  left: 75%;
-  opacity: 1.4954208673;
-  transform: rotate(124.8180384914deg);
-  animation: drop-47 4.0341968917s 0.0067143781s infinite;
+  left: 11%;
+  opacity: 0.6151632717;
+  transform: rotate(341.643639509deg);
+  animation: drop-47 4.2381535447s 0.2725210246s infinite;
 }
 
 @keyframes drop-47 {
   100% {
     top: 110%;
-    left: 81%;
+    left: 26%;
   }
 }
 .confetti-48 {
-  width: 6px;
-  height: 2.4px;
+  width: 3px;
+  height: 1.2px;
   background-color: #263672;
   top: -10%;
-  left: 66%;
-  opacity: 0.7314179016;
-  transform: rotate(181.18819773deg);
-  animation: drop-48 4.2312414686s 0.0863253633s infinite;
+  left: 20%;
+  opacity: 0.689542025;
+  transform: rotate(7.5233865852deg);
+  animation: drop-48 4.9062203103s 0.2482768746s infinite;
 }
 
 @keyframes drop-48 {
   100% {
     top: 110%;
-    left: 69%;
+    left: 35%;
   }
 }
 .confetti-49 {
   width: 6px;
   height: 2.4px;
-  background-color: #ffbf00;
+  background-color: #d13447;
   top: -10%;
-  left: 15%;
-  opacity: 1.246467883;
-  transform: rotate(106.1931343494deg);
-  animation: drop-49 4.6730039565s 0.09627148s infinite;
+  left: 59%;
+  opacity: 1.1142098804;
+  transform: rotate(17.0800364053deg);
+  animation: drop-49 4.3160735209s 0.9387934435s infinite;
 }
 
 @keyframes drop-49 {
   100% {
     top: 110%;
-    left: 16%;
+    left: 65%;
   }
 }
 .confetti-50 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 44%;
-  opacity: 0.5724029249;
-  transform: rotate(108.2279326035deg);
-  animation: drop-50 4.4677511723s 0.416260332s infinite;
+  left: 12%;
+  opacity: 0.8847483709;
+  transform: rotate(216.2555206424deg);
+  animation: drop-50 4.6546119157s 0.7831584564s infinite;
 }
 
 @keyframes drop-50 {
   100% {
     top: 110%;
-    left: 51%;
+    left: 24%;
   }
 }
 .confetti-51 {
-  width: 5px;
-  height: 2px;
-  background-color: #ffbf00;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 69%;
-  opacity: 0.7176602996;
-  transform: rotate(233.9661356309deg);
-  animation: drop-51 4.2929927362s 0.1381732807s infinite;
+  left: 37%;
+  opacity: 0.6679483451;
+  transform: rotate(60.6082812251deg);
+  animation: drop-51 4.7865146472s 0.7695482623s infinite;
 }
 
 @keyframes drop-51 {
   100% {
     top: 110%;
-    left: 82%;
+    left: 48%;
   }
 }
 .confetti-52 {
   width: 3px;
   height: 1.2px;
-  background-color: #d13447;
+  background-color: #263672;
   top: -10%;
-  left: 81%;
-  opacity: 1.218839713;
-  transform: rotate(132.9128843704deg);
-  animation: drop-52 4.7224874425s 0.9167597948s infinite;
+  left: 22%;
+  opacity: 1.1400678452;
+  transform: rotate(132.0515576606deg);
+  animation: drop-52 4.1454403764s 0.0291322779s infinite;
 }
 
 @keyframes drop-52 {
   100% {
     top: 110%;
-    left: 85%;
+    left: 32%;
   }
 }
 .confetti-53 {
-  width: 5px;
-  height: 2px;
+  width: 8px;
+  height: 3.2px;
   background-color: #ffbf00;
   top: -10%;
-  left: 8%;
-  opacity: 0.8162064127;
-  transform: rotate(197.157273087deg);
-  animation: drop-53 4.6075241114s 0.739374521s infinite;
+  left: 16%;
+  opacity: 0.7955527482;
+  transform: rotate(211.4236748684deg);
+  animation: drop-53 4.806838457s 0.741218877s infinite;
 }
 
 @keyframes drop-53 {
   100% {
     top: 110%;
-    left: 14%;
+    left: 23%;
   }
 }
 .confetti-54 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #263672;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 39%;
-  opacity: 1.0615151259;
-  transform: rotate(100.6309193109deg);
-  animation: drop-54 4.5772117492s 0.0444301063s infinite;
+  left: 60%;
+  opacity: 1.0636552779;
+  transform: rotate(306.81183043deg);
+  animation: drop-54 4.193204512s 0.8026962787s infinite;
 }
 
 @keyframes drop-54 {
   100% {
     top: 110%;
-    left: 42%;
+    left: 64%;
   }
 }
 .confetti-55 {
-  width: 6px;
-  height: 2.4px;
+  width: 8px;
+  height: 3.2px;
   background-color: #263672;
   top: -10%;
   left: 72%;
-  opacity: 1.3489120526;
-  transform: rotate(197.5524856377deg);
-  animation: drop-55 4.5408699843s 0.9685968355s infinite;
+  opacity: 0.5030850304;
+  transform: rotate(266.9708371291deg);
+  animation: drop-55 4.8247407655s 0.554743115s infinite;
 }
 
 @keyframes drop-55 {
   100% {
     top: 110%;
-    left: 84%;
+    left: 73%;
   }
 }
 .confetti-56 {
   width: 1px;
   height: 0.4px;
-  background-color: #d13447;
+  background-color: #263672;
   top: -10%;
-  left: 44%;
-  opacity: 1.396903592;
-  transform: rotate(353.4927810971deg);
-  animation: drop-56 4.0320178326s 0.8344563471s infinite;
+  left: 54%;
+  opacity: 0.9421310003;
+  transform: rotate(223.1955326079deg);
+  animation: drop-56 4.4132528626s 0.7591683924s infinite;
 }
 
 @keyframes drop-56 {
   100% {
     top: 110%;
-    left: 48%;
+    left: 56%;
   }
 }
 .confetti-57 {
-  width: 6px;
-  height: 2.4px;
-  background-color: #ffbf00;
+  width: 8px;
+  height: 3.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 79%;
-  opacity: 1.1715570565;
-  transform: rotate(32.7887170041deg);
-  animation: drop-57 4.4683861776s 0.6166295662s infinite;
+  left: 8%;
+  opacity: 0.8181415794;
+  transform: rotate(295.8360732951deg);
+  animation: drop-57 4.0293636874s 0.255628694s infinite;
 }
 
 @keyframes drop-57 {
   100% {
     top: 110%;
-    left: 89%;
+    left: 10%;
   }
 }
 .confetti-58 {
-  width: 5px;
-  height: 2px;
-  background-color: #d13447;
+  width: 7px;
+  height: 2.8px;
+  background-color: #263672;
   top: -10%;
-  left: 14%;
-  opacity: 0.940145408;
-  transform: rotate(10.7964485187deg);
-  animation: drop-58 4.9186384507s 0.0551237146s infinite;
+  left: 83%;
+  opacity: 0.9604368733;
+  transform: rotate(333.0224090872deg);
+  animation: drop-58 4.348619951s 0.8270604062s infinite;
 }
 
 @keyframes drop-58 {
   100% {
     top: 110%;
-    left: 20%;
+    left: 90%;
   }
 }
 .confetti-59 {
@@ -1036,16 +1036,16 @@
   height: 1.6px;
   background-color: #263672;
   top: -10%;
-  left: 47%;
-  opacity: 1.3402424785;
-  transform: rotate(256.0756715824deg);
-  animation: drop-59 4.3423778462s 0.4412556095s infinite;
+  left: 82%;
+  opacity: 1.0447752876;
+  transform: rotate(129.2660691842deg);
+  animation: drop-59 4.9540570541s 0.1049507293s infinite;
 }
 
 @keyframes drop-59 {
   100% {
     top: 110%;
-    left: 58%;
+    left: 88%;
   }
 }
 .confetti-60 {
@@ -1053,118 +1053,118 @@
   height: 1.2px;
   background-color: #263672;
   top: -10%;
-  left: 87%;
-  opacity: 0.6779050835;
-  transform: rotate(301.741326836deg);
-  animation: drop-60 4.1779218346s 0.7745842265s infinite;
+  left: 3%;
+  opacity: 1.206903111;
+  transform: rotate(292.0801177417deg);
+  animation: drop-60 4.9008531664s 0.294394345s infinite;
 }
 
 @keyframes drop-60 {
   100% {
     top: 110%;
-    left: 94%;
+    left: 5%;
   }
 }
 .confetti-61 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #ffbf00;
+  width: 8px;
+  height: 3.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 26%;
-  opacity: 1.4555631132;
-  transform: rotate(22.9570588114deg);
-  animation: drop-61 4.1146167543s 0.6325315816s infinite;
+  left: 83%;
+  opacity: 0.5591990002;
+  transform: rotate(133.3468711081deg);
+  animation: drop-61 4.1703716956s 0.6471660335s infinite;
 }
 
 @keyframes drop-61 {
   100% {
     top: 110%;
-    left: 32%;
+    left: 91%;
   }
 }
 .confetti-62 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #ffbf00;
+  width: 3px;
+  height: 1.2px;
+  background-color: #263672;
   top: -10%;
-  left: 78%;
-  opacity: 0.93672691;
-  transform: rotate(302.6298763909deg);
-  animation: drop-62 4.7250732755s 0.4284471819s infinite;
+  left: 91%;
+  opacity: 0.7288904148;
+  transform: rotate(129.168578002deg);
+  animation: drop-62 4.3216777811s 0.6421756984s infinite;
 }
 
 @keyframes drop-62 {
   100% {
     top: 110%;
-    left: 82%;
+    left: 95%;
   }
 }
 .confetti-63 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #ffbf00;
+  width: 6px;
+  height: 2.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 55%;
-  opacity: 0.5006078157;
-  transform: rotate(248.8623896698deg);
-  animation: drop-63 4.182354985s 0.137174557s infinite;
+  left: 12%;
+  opacity: 0.9971418855;
+  transform: rotate(175.7921076729deg);
+  animation: drop-63 4.1217259922s 0.0997462635s infinite;
 }
 
 @keyframes drop-63 {
   100% {
     top: 110%;
-    left: 70%;
+    left: 16%;
   }
 }
 .confetti-64 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 49%;
-  opacity: 0.6540061917;
-  transform: rotate(292.6747595204deg);
-  animation: drop-64 4.7921877927s 0.5126635422s infinite;
+  left: 30%;
+  opacity: 0.7877307204;
+  transform: rotate(6.0173665215deg);
+  animation: drop-64 4.0226336443s 0.6557522296s infinite;
 }
 
 @keyframes drop-64 {
   100% {
     top: 110%;
-    left: 63%;
+    left: 41%;
   }
 }
 .confetti-65 {
-  width: 4px;
-  height: 1.6px;
+  width: 7px;
+  height: 2.8px;
   background-color: #d13447;
   top: -10%;
-  left: 37%;
-  opacity: 0.6642716789;
-  transform: rotate(46.6498925977deg);
-  animation: drop-65 4.6904647101s 0.6439380691s infinite;
+  left: 80%;
+  opacity: 1.2350626037;
+  transform: rotate(269.4561862338deg);
+  animation: drop-65 4.0183225831s 0.0903483871s infinite;
 }
 
 @keyframes drop-65 {
   100% {
     top: 110%;
-    left: 42%;
+    left: 86%;
   }
 }
 .confetti-66 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #d13447;
+  width: 6px;
+  height: 2.4px;
+  background-color: #263672;
   top: -10%;
-  left: 23%;
-  opacity: 1.4265139115;
-  transform: rotate(24.5173615948deg);
-  animation: drop-66 4.6293479871s 0.8899332831s infinite;
+  left: 81%;
+  opacity: 0.6450391483;
+  transform: rotate(22.0645215556deg);
+  animation: drop-66 4.1561186589s 0.4985380956s infinite;
 }
 
 @keyframes drop-66 {
   100% {
     top: 110%;
-    left: 28%;
+    left: 84%;
   }
 }
 .confetti-67 {
@@ -1172,118 +1172,118 @@
   height: 1.2px;
   background-color: #d13447;
   top: -10%;
-  left: 72%;
-  opacity: 1.255725482;
-  transform: rotate(291.7430466469deg);
-  animation: drop-67 4.7326243753s 0.766843218s infinite;
+  left: 11%;
+  opacity: 0.5027093623;
+  transform: rotate(218.6363102342deg);
+  animation: drop-67 4.4828644844s 0.0842383704s infinite;
 }
 
 @keyframes drop-67 {
   100% {
     top: 110%;
-    left: 78%;
+    left: 13%;
   }
 }
 .confetti-68 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #263672;
+  width: 2px;
+  height: 0.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 32%;
-  opacity: 0.8868120162;
-  transform: rotate(245.109735218deg);
-  animation: drop-68 4.6643569949s 0.03912378s infinite;
+  left: 14%;
+  opacity: 0.7622585306;
+  transform: rotate(230.3875686416deg);
+  animation: drop-68 4.375307679s 0.6103924377s infinite;
 }
 
 @keyframes drop-68 {
   100% {
     top: 110%;
-    left: 41%;
+    left: 21%;
   }
 }
 .confetti-69 {
-  width: 2px;
-  height: 0.8px;
-  background-color: #d13447;
+  width: 3px;
+  height: 1.2px;
+  background-color: #263672;
   top: -10%;
-  left: 35%;
-  opacity: 1.3804572516;
-  transform: rotate(342.1585516874deg);
-  animation: drop-69 4.1186951525s 0.9228610106s infinite;
+  left: 19%;
+  opacity: 0.8127843219;
+  transform: rotate(217.0713713542deg);
+  animation: drop-69 4.3712214329s 0.1678258677s infinite;
 }
 
 @keyframes drop-69 {
   100% {
     top: 110%;
-    left: 48%;
+    left: 23%;
   }
 }
 .confetti-70 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #263672;
+  width: 6px;
+  height: 2.4px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 7%;
-  opacity: 0.5245729084;
-  transform: rotate(348.2492714544deg);
-  animation: drop-70 4.14398729s 0.7483714161s infinite;
+  left: 3%;
+  opacity: 1.2359660477;
+  transform: rotate(253.7460036693deg);
+  animation: drop-70 4.8029085152s 0.657967736s infinite;
 }
 
 @keyframes drop-70 {
   100% {
     top: 110%;
-    left: 13%;
+    left: 16%;
   }
 }
 .confetti-71 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #d13447;
+  width: 8px;
+  height: 3.2px;
+  background-color: #263672;
   top: -10%;
-  left: 17%;
-  opacity: 1.067724197;
-  transform: rotate(189.5805394101deg);
-  animation: drop-71 4.6542383776s 0.4858062687s infinite;
+  left: 11%;
+  opacity: 1.0435880445;
+  transform: rotate(297.5378251985deg);
+  animation: drop-71 4.6037160506s 0.8090127642s infinite;
 }
 
 @keyframes drop-71 {
   100% {
     top: 110%;
-    left: 28%;
+    left: 16%;
   }
 }
 .confetti-72 {
-  width: 3px;
-  height: 1.2px;
+  width: 5px;
+  height: 2px;
   background-color: #263672;
   top: -10%;
-  left: 26%;
-  opacity: 1.4705421479;
-  transform: rotate(324.6157526318deg);
-  animation: drop-72 4.2241546861s 0.2499716385s infinite;
+  left: 70%;
+  opacity: 0.8211981947;
+  transform: rotate(178.735292413deg);
+  animation: drop-72 4.7363425999s 0.8323945275s infinite;
 }
 
 @keyframes drop-72 {
   100% {
     top: 110%;
-    left: 29%;
+    left: 81%;
   }
 }
 .confetti-73 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #d13447;
+  width: 8px;
+  height: 3.2px;
+  background-color: #263672;
   top: -10%;
-  left: 17%;
-  opacity: 1.2756898163;
-  transform: rotate(331.2184451819deg);
-  animation: drop-73 4.0427034992s 0.3220726022s infinite;
+  left: 55%;
+  opacity: 1.3439182375;
+  transform: rotate(80.2024137462deg);
+  animation: drop-73 4.1754834231s 0.9019359279s infinite;
 }
 
 @keyframes drop-73 {
   100% {
     top: 110%;
-    left: 19%;
+    left: 60%;
   }
 }
 .confetti-74 {
@@ -1291,254 +1291,254 @@
   height: 1.2px;
   background-color: #d13447;
   top: -10%;
-  left: 54%;
-  opacity: 1.1142121006;
-  transform: rotate(89.7831006109deg);
-  animation: drop-74 4.4352979302s 0.1370066445s infinite;
+  left: 29%;
+  opacity: 1.3332431446;
+  transform: rotate(208.0686510544deg);
+  animation: drop-74 4.2327774166s 0.5129217674s infinite;
 }
 
 @keyframes drop-74 {
   100% {
     top: 110%;
-    left: 64%;
+    left: 35%;
   }
 }
 .confetti-75 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #ffbf00;
+  width: 7px;
+  height: 2.8px;
+  background-color: #263672;
   top: -10%;
-  left: 15%;
-  opacity: 0.7769712725;
-  transform: rotate(313.8561438127deg);
-  animation: drop-75 4.6602351582s 0.5640050947s infinite;
+  left: 8%;
+  opacity: 0.8280355704;
+  transform: rotate(289.39178176deg);
+  animation: drop-75 4.2735918576s 0.7613357639s infinite;
 }
 
 @keyframes drop-75 {
   100% {
     top: 110%;
-    left: 21%;
+    left: 18%;
   }
 }
 .confetti-76 {
   width: 5px;
   height: 2px;
-  background-color: #263672;
+  background-color: #ffbf00;
   top: -10%;
-  left: 51%;
-  opacity: 0.521496899;
-  transform: rotate(344.0528449274deg);
-  animation: drop-76 4.6983834194s 0.1504775106s infinite;
+  left: 16%;
+  opacity: 1.2047879041;
+  transform: rotate(20.3658148946deg);
+  animation: drop-76 4.5374759361s 0.6211050625s infinite;
 }
 
 @keyframes drop-76 {
   100% {
     top: 110%;
-    left: 55%;
+    left: 28%;
   }
 }
 .confetti-77 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 1px;
+  height: 0.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 33%;
-  opacity: 1.315263217;
-  transform: rotate(279.9259658353deg);
-  animation: drop-77 4.921044473s 0.1977546422s infinite;
+  left: 67%;
+  opacity: 1.1145631105;
+  transform: rotate(240.9518978556deg);
+  animation: drop-77 4.479165721s 0.3406519324s infinite;
 }
 
 @keyframes drop-77 {
   100% {
     top: 110%;
-    left: 35%;
+    left: 69%;
   }
 }
 .confetti-78 {
   width: 7px;
   height: 2.8px;
-  background-color: #263672;
+  background-color: #ffbf00;
   top: -10%;
-  left: 97%;
-  opacity: 1.4643981738;
-  transform: rotate(118.1194085978deg);
-  animation: drop-78 4.9524082592s 0.4015419751s infinite;
+  left: 4%;
+  opacity: 1.3216950436;
+  transform: rotate(157.364439411deg);
+  animation: drop-78 4.2849796087s 0.2226109339s infinite;
 }
 
 @keyframes drop-78 {
   100% {
     top: 110%;
-    left: 106%;
+    left: 18%;
   }
 }
 .confetti-79 {
-  width: 1px;
-  height: 0.4px;
+  width: 7px;
+  height: 2.8px;
   background-color: #263672;
   top: -10%;
-  left: 85%;
-  opacity: 1.2170550776;
-  transform: rotate(61.0583812719deg);
-  animation: drop-79 4.6367422424s 0.6946626975s infinite;
+  left: 14%;
+  opacity: 1.40318419;
+  transform: rotate(219.6051374397deg);
+  animation: drop-79 4.0808963035s 0.421527975s infinite;
 }
 
 @keyframes drop-79 {
   100% {
     top: 110%;
-    left: 100%;
+    left: 26%;
   }
 }
 .confetti-80 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #ffbf00;
+  width: 2px;
+  height: 0.8px;
+  background-color: #263672;
   top: -10%;
-  left: 96%;
-  opacity: 1.3231963994;
-  transform: rotate(344.5608546734deg);
-  animation: drop-80 4.3526324963s 0.3115367798s infinite;
+  left: 36%;
+  opacity: 1.0465414136;
+  transform: rotate(62.0583475246deg);
+  animation: drop-80 4.7792372539s 0.4106864578s infinite;
 }
 
 @keyframes drop-80 {
   100% {
     top: 110%;
-    left: 102%;
+    left: 49%;
   }
 }
 .confetti-81 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #d13447;
+  width: 5px;
+  height: 2px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 39%;
-  opacity: 0.7464372224;
-  transform: rotate(42.2091978011deg);
-  animation: drop-81 4.9069748006s 0.4676060275s infinite;
+  left: 59%;
+  opacity: 1.2707341978;
+  transform: rotate(246.4823699809deg);
+  animation: drop-81 4.5744568194s 0.7325545374s infinite;
 }
 
 @keyframes drop-81 {
   100% {
     top: 110%;
-    left: 54%;
+    left: 63%;
   }
 }
 .confetti-82 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 6px;
+  height: 2.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 72%;
-  opacity: 0.7588165195;
-  transform: rotate(342.5382575617deg);
-  animation: drop-82 4.3087761839s 0.4806194463s infinite;
+  left: 83%;
+  opacity: 0.6646646422;
+  transform: rotate(43.6540912041deg);
+  animation: drop-82 4.1886877741s 0.054284098s infinite;
 }
 
 @keyframes drop-82 {
   100% {
     top: 110%;
-    left: 84%;
+    left: 97%;
   }
 }
 .confetti-83 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #d13447;
+  width: 3px;
+  height: 1.2px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 86%;
-  opacity: 0.5445868852;
-  transform: rotate(313.2470383846deg);
-  animation: drop-83 4.7726789495s 0.8485099091s infinite;
+  left: 28%;
+  opacity: 0.823611473;
+  transform: rotate(92.9401646481deg);
+  animation: drop-83 4.0390323907s 0.1012864931s infinite;
 }
 
 @keyframes drop-83 {
   100% {
     top: 110%;
-    left: 96%;
+    left: 36%;
   }
 }
 .confetti-84 {
-  width: 5px;
-  height: 2px;
+  width: 8px;
+  height: 3.2px;
   background-color: #ffbf00;
   top: -10%;
-  left: 83%;
-  opacity: 0.5487943884;
-  transform: rotate(54.9398240882deg);
-  animation: drop-84 4.1060718303s 0.0652220101s infinite;
+  left: 33%;
+  opacity: 1.458632704;
+  transform: rotate(332.8923320884deg);
+  animation: drop-84 4.5680086203s 0.9093866186s infinite;
 }
 
 @keyframes drop-84 {
   100% {
     top: 110%;
-    left: 91%;
+    left: 46%;
   }
 }
 .confetti-85 {
-  width: 8px;
-  height: 3.2px;
+  width: 5px;
+  height: 2px;
   background-color: #d13447;
   top: -10%;
-  left: 54%;
-  opacity: 0.9336746635;
-  transform: rotate(298.9716187878deg);
-  animation: drop-85 4.7699324338s 0.2675980769s infinite;
+  left: 42%;
+  opacity: 1.0955120352;
+  transform: rotate(213.7515492677deg);
+  animation: drop-85 4.7078076137s 0.0608437109s infinite;
 }
 
 @keyframes drop-85 {
   100% {
     top: 110%;
-    left: 64%;
+    left: 52%;
   }
 }
 .confetti-86 {
-  width: 5px;
-  height: 2px;
+  width: 6px;
+  height: 2.4px;
   background-color: #263672;
   top: -10%;
-  left: 36%;
-  opacity: 0.5690576858;
-  transform: rotate(42.8341428896deg);
-  animation: drop-86 4.9923032605s 0.50512187s infinite;
+  left: 28%;
+  opacity: 1.3962939103;
+  transform: rotate(17.908325129deg);
+  animation: drop-86 4.3949328341s 0.8721197196s infinite;
 }
 
 @keyframes drop-86 {
   100% {
     top: 110%;
-    left: 47%;
+    left: 35%;
   }
 }
 .confetti-87 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #ffbf00;
+  width: 5px;
+  height: 2px;
+  background-color: #263672;
   top: -10%;
-  left: 51%;
-  opacity: 1.2100284208;
-  transform: rotate(84.4037145019deg);
-  animation: drop-87 4.9749946538s 0.5823164949s infinite;
+  left: 37%;
+  opacity: 1.3110765379;
+  transform: rotate(57.7074619455deg);
+  animation: drop-87 4.0822963425s 0.7273276654s infinite;
 }
 
 @keyframes drop-87 {
   100% {
     top: 110%;
-    left: 59%;
+    left: 47%;
   }
 }
 .confetti-88 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #d13447;
+  width: 1px;
+  height: 0.4px;
+  background-color: #263672;
   top: -10%;
-  left: 65%;
-  opacity: 0.8856411039;
-  transform: rotate(314.6789351486deg);
-  animation: drop-88 4.6164360203s 0.8273137741s infinite;
+  left: 89%;
+  opacity: 1.150370598;
+  transform: rotate(84.0133777163deg);
+  animation: drop-88 4.7299049398s 0.9478253666s infinite;
 }
 
 @keyframes drop-88 {
   100% {
     top: 110%;
-    left: 68%;
+    left: 100%;
   }
 }
 .confetti-89 {
@@ -1546,129 +1546,129 @@
   height: 3.2px;
   background-color: #ffbf00;
   top: -10%;
-  left: 61%;
-  opacity: 1.060174028;
-  transform: rotate(190.7849647012deg);
-  animation: drop-89 4.5017564964s 0.2715112797s infinite;
+  left: 3%;
+  opacity: 0.7615310161;
+  transform: rotate(298.0319553571deg);
+  animation: drop-89 4.2662330555s 0.8119920054s infinite;
 }
 
 @keyframes drop-89 {
   100% {
     top: 110%;
-    left: 63%;
+    left: 15%;
   }
 }
 .confetti-90 {
   width: 8px;
   height: 3.2px;
-  background-color: #ffbf00;
+  background-color: #263672;
   top: -10%;
-  left: 53%;
-  opacity: 1.2506038952;
-  transform: rotate(5.8777610083deg);
-  animation: drop-90 4.786642488s 0.5838825188s infinite;
+  left: 43%;
+  opacity: 0.5368783686;
+  transform: rotate(255.8018675258deg);
+  animation: drop-90 4.7757324003s 0.4305243658s infinite;
 }
 
 @keyframes drop-90 {
   100% {
     top: 110%;
-    left: 68%;
+    left: 53%;
   }
 }
 .confetti-91 {
-  width: 5px;
-  height: 2px;
+  width: 4px;
+  height: 1.6px;
   background-color: #ffbf00;
   top: -10%;
-  left: 78%;
-  opacity: 1.1653562824;
-  transform: rotate(22.4466520261deg);
-  animation: drop-91 4.8602190803s 0.541421977s infinite;
+  left: 39%;
+  opacity: 0.5439083794;
+  transform: rotate(301.9493354802deg);
+  animation: drop-91 4.7324556511s 0.3118329785s infinite;
 }
 
 @keyframes drop-91 {
   100% {
     top: 110%;
-    left: 82%;
+    left: 41%;
   }
 }
 .confetti-92 {
-  width: 3px;
-  height: 1.2px;
+  width: 8px;
+  height: 3.2px;
   background-color: #263672;
   top: -10%;
-  left: 71%;
-  opacity: 1.0963051442;
-  transform: rotate(186.0001279979deg);
-  animation: drop-92 4.5065041115s 0.6514653372s infinite;
+  left: 9%;
+  opacity: 1.303357715;
+  transform: rotate(187.8276075441deg);
+  animation: drop-92 4.0182529304s 0.9282993749s infinite;
 }
 
 @keyframes drop-92 {
   100% {
     top: 110%;
-    left: 72%;
+    left: 14%;
   }
 }
 .confetti-93 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #263672;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 58%;
-  opacity: 1.3265844813;
-  transform: rotate(249.5006342666deg);
-  animation: drop-93 4.5096790647s 0.4151891943s infinite;
+  left: 70%;
+  opacity: 1.2766160316;
+  transform: rotate(9.349722592deg);
+  animation: drop-93 4.8652985543s 0.426670154s infinite;
 }
 
 @keyframes drop-93 {
   100% {
     top: 110%;
-    left: 70%;
+    left: 71%;
   }
 }
 .confetti-94 {
-  width: 4px;
-  height: 1.6px;
+  width: 7px;
+  height: 2.8px;
   background-color: #d13447;
   top: -10%;
-  left: 41%;
-  opacity: 1.1018290007;
-  transform: rotate(242.6497704145deg);
-  animation: drop-94 4.8805933955s 0.9643607975s infinite;
+  left: 22%;
+  opacity: 1.0381352017;
+  transform: rotate(210.368436068deg);
+  animation: drop-94 4.6440691087s 0.7728478354s infinite;
 }
 
 @keyframes drop-94 {
   100% {
     top: 110%;
-    left: 50%;
+    left: 28%;
   }
 }
 .confetti-95 {
-  width: 4px;
-  height: 1.6px;
-  background-color: #ffbf00;
+  width: 5px;
+  height: 2px;
+  background-color: #263672;
   top: -10%;
-  left: 45%;
-  opacity: 0.8155747744;
-  transform: rotate(120.0066353006deg);
-  animation: drop-95 4.5875739372s 0.9504348718s infinite;
+  left: 15%;
+  opacity: 0.5979170383;
+  transform: rotate(30.031983844deg);
+  animation: drop-95 4.1159607327s 0.0560444563s infinite;
 }
 
 @keyframes drop-95 {
   100% {
     top: 110%;
-    left: 58%;
+    left: 20%;
   }
 }
 .confetti-96 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 4%;
-  opacity: 0.9530994613;
-  transform: rotate(358.1262900301deg);
-  animation: drop-96 4.8355121271s 0.9444056902s infinite;
+  left: 6%;
+  opacity: 1.3884236231;
+  transform: rotate(283.8316081368deg);
+  animation: drop-96 4.9898681407s 0.2330983775s infinite;
 }
 
 @keyframes drop-96 {
@@ -1682,322 +1682,322 @@
   height: 2px;
   background-color: #d13447;
   top: -10%;
-  left: 55%;
-  opacity: 0.6926364673;
-  transform: rotate(144.6554489504deg);
-  animation: drop-97 4.3538402981s 0.9555413738s infinite;
+  left: 72%;
+  opacity: 1.4955533526;
+  transform: rotate(274.0863183419deg);
+  animation: drop-97 4.9944383189s 0.4000608727s infinite;
 }
 
 @keyframes drop-97 {
   100% {
     top: 110%;
-    left: 68%;
+    left: 87%;
   }
 }
 .confetti-98 {
   width: 2px;
   height: 0.8px;
-  background-color: #ffbf00;
+  background-color: #263672;
   top: -10%;
-  left: 58%;
-  opacity: 1.4527832615;
-  transform: rotate(199.5395290141deg);
-  animation: drop-98 4.9889594846s 0.1877183023s infinite;
+  left: 41%;
+  opacity: 1.2104412476;
+  transform: rotate(227.427671558deg);
+  animation: drop-98 4.926451919s 0.6312587662s infinite;
 }
 
 @keyframes drop-98 {
   100% {
     top: 110%;
-    left: 59%;
+    left: 45%;
   }
 }
 .confetti-99 {
-  width: 4px;
-  height: 1.6px;
+  width: 8px;
+  height: 3.2px;
   background-color: #d13447;
   top: -10%;
-  left: 51%;
-  opacity: 1.3432711148;
-  transform: rotate(109.7127589272deg);
-  animation: drop-99 4.7469091704s 0.7066685226s infinite;
+  left: 18%;
+  opacity: 0.9566017627;
+  transform: rotate(227.2373655465deg);
+  animation: drop-99 4.2217523981s 0.5122708173s infinite;
 }
 
 @keyframes drop-99 {
   100% {
     top: 110%;
-    left: 66%;
+    left: 27%;
   }
 }
 .confetti-100 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #ffbf00;
+  width: 6px;
+  height: 2.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 64%;
-  opacity: 0.5773785217;
-  transform: rotate(183.8504045763deg);
-  animation: drop-100 4.5139265003s 0.6119263596s infinite;
+  left: 37%;
+  opacity: 1.3791160501;
+  transform: rotate(254.1471317486deg);
+  animation: drop-100 4.8347693696s 0.2388748107s infinite;
 }
 
 @keyframes drop-100 {
   100% {
     top: 110%;
-    left: 75%;
+    left: 44%;
   }
 }
 .confetti-101 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #263672;
+  width: 1px;
+  height: 0.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 42%;
-  opacity: 1.1129318695;
-  transform: rotate(225.7394921deg);
-  animation: drop-101 4.8815395633s 0.0253933375s infinite;
+  left: 48%;
+  opacity: 1.0064400597;
+  transform: rotate(204.9809295798deg);
+  animation: drop-101 4.652863813s 0.2577031458s infinite;
 }
 
 @keyframes drop-101 {
   100% {
     top: 110%;
-    left: 47%;
+    left: 63%;
   }
 }
 .confetti-102 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #ffbf00;
+  width: 6px;
+  height: 2.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 25%;
-  opacity: 1.1094692753;
-  transform: rotate(263.4113560788deg);
-  animation: drop-102 4.4145388889s 0.0284865372s infinite;
+  left: 87%;
+  opacity: 1.2115288574;
+  transform: rotate(60.6952393208deg);
+  animation: drop-102 4.6056171813s 0.5822900379s infinite;
 }
 
 @keyframes drop-102 {
   100% {
     top: 110%;
-    left: 35%;
+    left: 92%;
   }
 }
 .confetti-103 {
   width: 5px;
   height: 2px;
-  background-color: #263672;
+  background-color: #ffbf00;
   top: -10%;
-  left: 92%;
-  opacity: 1.3055068395;
-  transform: rotate(258.9698836684deg);
-  animation: drop-103 4.6242149716s 0.6071115456s infinite;
+  left: 41%;
+  opacity: 0.9736370128;
+  transform: rotate(192.4901898136deg);
+  animation: drop-103 4.1136694007s 0.881655282s infinite;
 }
 
 @keyframes drop-103 {
   100% {
     top: 110%;
-    left: 103%;
+    left: 56%;
   }
 }
 .confetti-104 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 75%;
-  opacity: 0.5095887888;
-  transform: rotate(254.9115000862deg);
-  animation: drop-104 4.9123554795s 0.6641705767s infinite;
+  left: 21%;
+  opacity: 0.9074565001;
+  transform: rotate(143.2087227247deg);
+  animation: drop-104 4.942294831s 0.1936478872s infinite;
 }
 
 @keyframes drop-104 {
   100% {
     top: 110%;
-    left: 79%;
+    left: 32%;
   }
 }
 .confetti-105 {
-  width: 5px;
-  height: 2px;
-  background-color: #263672;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 20%;
-  opacity: 0.6248565449;
-  transform: rotate(50.6314748329deg);
-  animation: drop-105 4.3252436146s 0.4348101935s infinite;
+  left: 92%;
+  opacity: 0.687492254;
+  transform: rotate(104.7840999556deg);
+  animation: drop-105 4.5333240912s 0.3095603103s infinite;
 }
 
 @keyframes drop-105 {
   100% {
     top: 110%;
-    left: 31%;
+    left: 101%;
   }
 }
 .confetti-106 {
-  width: 2px;
-  height: 0.8px;
-  background-color: #d13447;
+  width: 6px;
+  height: 2.4px;
+  background-color: #263672;
   top: -10%;
-  left: 45%;
-  opacity: 1.4746259594;
-  transform: rotate(143.696301783deg);
-  animation: drop-106 4.0507840671s 0.3667422137s infinite;
+  left: 39%;
+  opacity: 0.6956822734;
+  transform: rotate(279.2074802008deg);
+  animation: drop-106 4.7574482182s 0.6414589124s infinite;
 }
 
 @keyframes drop-106 {
   100% {
     top: 110%;
-    left: 55%;
+    left: 45%;
   }
 }
 .confetti-107 {
   width: 1px;
   height: 0.4px;
-  background-color: #ffbf00;
+  background-color: #d13447;
   top: -10%;
-  left: 5%;
-  opacity: 0.9287736394;
-  transform: rotate(140.0286755475deg);
-  animation: drop-107 4.9473125942s 0.1866649548s infinite;
+  left: 7%;
+  opacity: 1.4419726304;
+  transform: rotate(261.1183955501deg);
+  animation: drop-107 4.4914334679s 0.6268594446s infinite;
 }
 
 @keyframes drop-107 {
   100% {
     top: 110%;
-    left: 19%;
+    left: 22%;
   }
 }
 .confetti-108 {
-  width: 6px;
-  height: 2.4px;
-  background-color: #d13447;
+  width: 3px;
+  height: 1.2px;
+  background-color: #263672;
   top: -10%;
-  left: 76%;
-  opacity: 0.6321085167;
-  transform: rotate(334.1145331917deg);
-  animation: drop-108 4.2917956746s 0.1332889551s infinite;
+  left: 80%;
+  opacity: 1.4718126975;
+  transform: rotate(193.0552134118deg);
+  animation: drop-108 4.8807477408s 0.7576499987s infinite;
 }
 
 @keyframes drop-108 {
   100% {
     top: 110%;
-    left: 88%;
+    left: 95%;
   }
 }
 .confetti-109 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #263672;
+  width: 2px;
+  height: 0.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 87%;
-  opacity: 1.4274628556;
-  transform: rotate(164.2948079707deg);
-  animation: drop-109 4.6660171542s 0.3431486642s infinite;
+  left: 12%;
+  opacity: 0.5271687463;
+  transform: rotate(33.2988616884deg);
+  animation: drop-109 4.3111170773s 0.7889564078s infinite;
 }
 
 @keyframes drop-109 {
   100% {
     top: 110%;
-    left: 102%;
+    left: 13%;
   }
 }
 .confetti-110 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #263672;
+  width: 6px;
+  height: 2.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 17%;
-  opacity: 0.5269331826;
-  transform: rotate(339.8710341374deg);
-  animation: drop-110 4.083651301s 0.555700825s infinite;
+  left: 58%;
+  opacity: 1.3181328069;
+  transform: rotate(34.050842356deg);
+  animation: drop-110 4.4252619637s 0.1220537106s infinite;
 }
 
 @keyframes drop-110 {
   100% {
     top: 110%;
-    left: 27%;
+    left: 65%;
   }
 }
 .confetti-111 {
-  width: 5px;
-  height: 2px;
-  background-color: #ffbf00;
+  width: 1px;
+  height: 0.4px;
+  background-color: #d13447;
   top: -10%;
-  left: 75%;
-  opacity: 1.1345614333;
-  transform: rotate(135.5721943304deg);
-  animation: drop-111 4.5579891428s 0.5284310169s infinite;
+  left: 80%;
+  opacity: 1.4746957208;
+  transform: rotate(227.716884284deg);
+  animation: drop-111 4.6157261162s 0.5498707797s infinite;
 }
 
 @keyframes drop-111 {
   100% {
     top: 110%;
-    left: 85%;
+    left: 94%;
   }
 }
 .confetti-112 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #263672;
+  width: 2px;
+  height: 0.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 72%;
-  opacity: 1.3816274714;
-  transform: rotate(196.2278186647deg);
-  animation: drop-112 4.0071456241s 0.5966100519s infinite;
+  left: 47%;
+  opacity: 1.4127800541;
+  transform: rotate(43.6351943775deg);
+  animation: drop-112 4.5707550192s 0.0043423511s infinite;
 }
 
 @keyframes drop-112 {
   100% {
     top: 110%;
-    left: 76%;
+    left: 56%;
   }
 }
 .confetti-113 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #d13447;
+  width: 5px;
+  height: 2px;
+  background-color: #263672;
   top: -10%;
-  left: 16%;
-  opacity: 1.1667610811;
-  transform: rotate(308.7821817223deg);
-  animation: drop-113 4.6290204014s 0.4426767589s infinite;
+  left: 2%;
+  opacity: 1.3918449335;
+  transform: rotate(315.8344549756deg);
+  animation: drop-113 4.1888377116s 0.0504741361s infinite;
 }
 
 @keyframes drop-113 {
   100% {
     top: 110%;
-    left: 28%;
+    left: 8%;
   }
 }
 .confetti-114 {
-  width: 5px;
-  height: 2px;
-  background-color: #d13447;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 12%;
-  opacity: 1.4343178838;
-  transform: rotate(211.4377336248deg);
-  animation: drop-114 4.5560090421s 0.5272271984s infinite;
+  left: 74%;
+  opacity: 1.0609931592;
+  transform: rotate(243.2181840499deg);
+  animation: drop-114 4.8784365335s 0.2864655417s infinite;
 }
 
 @keyframes drop-114 {
   100% {
     top: 110%;
-    left: 13%;
+    left: 76%;
   }
 }
 .confetti-115 {
-  width: 5px;
-  height: 2px;
+  width: 8px;
+  height: 3.2px;
   background-color: #263672;
   top: -10%;
-  left: 91%;
-  opacity: 1.1267022293;
-  transform: rotate(204.3125565499deg);
-  animation: drop-115 4.2026539732s 0.963739292s infinite;
+  left: 85%;
+  opacity: 0.8553577543;
+  transform: rotate(27.3364946542deg);
+  animation: drop-115 4.3874279976s 0.4869485008s infinite;
 }
 
 @keyframes drop-115 {
   100% {
     top: 110%;
-    left: 105%;
+    left: 86%;
   }
 }
 .confetti-116 {
@@ -2005,101 +2005,101 @@
   height: 2.8px;
   background-color: #ffbf00;
   top: -10%;
-  left: 16%;
-  opacity: 1.1814411533;
-  transform: rotate(351.9207458514deg);
-  animation: drop-116 4.8073410391s 0.4138787882s infinite;
+  left: 25%;
+  opacity: 0.986332868;
+  transform: rotate(310.9796036941deg);
+  animation: drop-116 4.1703021165s 0.6751146173s infinite;
 }
 
 @keyframes drop-116 {
   100% {
     top: 110%;
-    left: 23%;
+    left: 30%;
   }
 }
 .confetti-117 {
-  width: 2px;
-  height: 0.8px;
+  width: 3px;
+  height: 1.2px;
   background-color: #d13447;
   top: -10%;
-  left: 5%;
-  opacity: 0.5644179118;
-  transform: rotate(81.3995268547deg);
-  animation: drop-117 4.9759153936s 0.1083423657s infinite;
+  left: 90%;
+  opacity: 0.7370970036;
+  transform: rotate(134.4740151697deg);
+  animation: drop-117 4.0851883916s 0.7705858994s infinite;
 }
 
 @keyframes drop-117 {
   100% {
     top: 110%;
-    left: 17%;
+    left: 91%;
   }
 }
 .confetti-118 {
   width: 8px;
   height: 3.2px;
-  background-color: #263672;
+  background-color: #d13447;
   top: -10%;
-  left: 18%;
-  opacity: 1.3958790338;
-  transform: rotate(163.5494964279deg);
-  animation: drop-118 4.4620236219s 0.8261986016s infinite;
+  left: 15%;
+  opacity: 1.1217459229;
+  transform: rotate(192.0031252114deg);
+  animation: drop-118 4.7075250319s 0.0322539956s infinite;
 }
 
 @keyframes drop-118 {
   100% {
     top: 110%;
-    left: 25%;
+    left: 18%;
   }
 }
 .confetti-119 {
-  width: 3px;
-  height: 1.2px;
+  width: 1px;
+  height: 0.4px;
   background-color: #d13447;
   top: -10%;
-  left: 15%;
-  opacity: 0.7134757293;
-  transform: rotate(174.9247268452deg);
-  animation: drop-119 4.0195710943s 0.7734503441s infinite;
+  left: 87%;
+  opacity: 1.0564044073;
+  transform: rotate(158.1572012656deg);
+  animation: drop-119 4.4633179371s 0.4999323455s infinite;
 }
 
 @keyframes drop-119 {
   100% {
     top: 110%;
-    left: 25%;
+    left: 94%;
   }
 }
 .confetti-120 {
-  width: 2px;
-  height: 0.8px;
-  background-color: #263672;
+  width: 8px;
+  height: 3.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 63%;
-  opacity: 0.6149281154;
-  transform: rotate(16.9603070353deg);
-  animation: drop-120 4.2003769384s 0.1100168337s infinite;
+  left: 100%;
+  opacity: 1.3638572498;
+  transform: rotate(48.4837997094deg);
+  animation: drop-120 4.3459821865s 0.6531144922s infinite;
 }
 
 @keyframes drop-120 {
   100% {
     top: 110%;
-    left: 64%;
+    left: 110%;
   }
 }
 .confetti-121 {
-  width: 2px;
-  height: 0.8px;
-  background-color: #d13447;
+  width: 6px;
+  height: 2.4px;
+  background-color: #263672;
   top: -10%;
-  left: 8%;
-  opacity: 1.4536891795;
-  transform: rotate(271.2014632973deg);
-  animation: drop-121 4.761738423s 0.7240742184s infinite;
+  left: 96%;
+  opacity: 0.7276625129;
+  transform: rotate(225.7777697917deg);
+  animation: drop-121 4.1000629455s 0.1182431736s infinite;
 }
 
 @keyframes drop-121 {
   100% {
     top: 110%;
-    left: 9%;
+    left: 105%;
   }
 }
 .confetti-122 {
@@ -2107,152 +2107,152 @@
   height: 2px;
   background-color: #263672;
   top: -10%;
-  left: 21%;
-  opacity: 0.7761400989;
-  transform: rotate(182.5824129281deg);
-  animation: drop-122 4.5795884562s 0.0066229195s infinite;
+  left: 5%;
+  opacity: 0.7703867481;
+  transform: rotate(301.5316460547deg);
+  animation: drop-122 4.9399570083s 0.7939930192s infinite;
 }
 
 @keyframes drop-122 {
   100% {
     top: 110%;
-    left: 29%;
+    left: 19%;
   }
 }
 .confetti-123 {
-  width: 4px;
-  height: 1.6px;
+  width: 3px;
+  height: 1.2px;
   background-color: #d13447;
   top: -10%;
-  left: 48%;
-  opacity: 0.9542945009;
-  transform: rotate(58.3271990286deg);
-  animation: drop-123 4.0867904897s 0.637742831s infinite;
+  left: 86%;
+  opacity: 1.4853187318;
+  transform: rotate(76.9600274832deg);
+  animation: drop-123 4.4805499607s 0.2147743755s infinite;
 }
 
 @keyframes drop-123 {
   100% {
     top: 110%;
-    left: 52%;
+    left: 89%;
   }
 }
 .confetti-124 {
-  width: 3px;
-  height: 1.2px;
-  background-color: #d13447;
+  width: 4px;
+  height: 1.6px;
+  background-color: #263672;
   top: -10%;
-  left: 79%;
-  opacity: 1.1012857856;
-  transform: rotate(115.1160704263deg);
-  animation: drop-124 4.011192059s 0.6715837692s infinite;
+  left: 33%;
+  opacity: 1.4729008719;
+  transform: rotate(204.3637170341deg);
+  animation: drop-124 4.4457632515s 0.9447156282s infinite;
 }
 
 @keyframes drop-124 {
   100% {
     top: 110%;
-    left: 85%;
+    left: 46%;
   }
 }
 .confetti-125 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 55%;
-  opacity: 0.6349715473;
-  transform: rotate(336.9737393672deg);
-  animation: drop-125 4.0911065108s 0.635077893s infinite;
+  left: 96%;
+  opacity: 0.6664165274;
+  transform: rotate(283.1894692585deg);
+  animation: drop-125 4.8700362718s 0.0986396054s infinite;
 }
 
 @keyframes drop-125 {
   100% {
     top: 110%;
-    left: 62%;
+    left: 106%;
   }
 }
 .confetti-126 {
-  width: 5px;
-  height: 2px;
-  background-color: #ffbf00;
+  width: 7px;
+  height: 2.8px;
+  background-color: #d13447;
   top: -10%;
-  left: 7%;
-  opacity: 1.007129188;
-  transform: rotate(179.4908000073deg);
-  animation: drop-126 4.589056898s 0.5014212595s infinite;
+  left: 25%;
+  opacity: 0.7877294394;
+  transform: rotate(188.4997925558deg);
+  animation: drop-126 4.5950535113s 0.5065268758s infinite;
 }
 
 @keyframes drop-126 {
   100% {
     top: 110%;
-    left: 17%;
+    left: 40%;
   }
 }
 .confetti-127 {
-  width: 2px;
-  height: 0.8px;
-  background-color: #d13447;
+  width: 7px;
+  height: 2.8px;
+  background-color: #263672;
   top: -10%;
-  left: 34%;
-  opacity: 0.9435271376;
-  transform: rotate(11.7542006309deg);
-  animation: drop-127 4.9107606198s 0.4845591325s infinite;
+  left: 80%;
+  opacity: 0.7155872658;
+  transform: rotate(20.1869876017deg);
+  animation: drop-127 4.726981626s 0.2441173603s infinite;
 }
 
 @keyframes drop-127 {
   100% {
     top: 110%;
-    left: 49%;
+    left: 82%;
   }
 }
 .confetti-128 {
-  width: 6px;
-  height: 2.4px;
-  background-color: #d13447;
+  width: 8px;
+  height: 3.2px;
+  background-color: #263672;
   top: -10%;
-  left: 46%;
-  opacity: 0.9610223208;
-  transform: rotate(130.2791009674deg);
-  animation: drop-128 4.6081773423s 0.2812883948s infinite;
+  left: 20%;
+  opacity: 1.3455800976;
+  transform: rotate(203.9623118511deg);
+  animation: drop-128 4.136984642s 0.6328649453s infinite;
 }
 
 @keyframes drop-128 {
   100% {
     top: 110%;
-    left: 58%;
+    left: 23%;
   }
 }
 .confetti-129 {
-  width: 6px;
-  height: 2.4px;
-  background-color: #d13447;
+  width: 3px;
+  height: 1.2px;
+  background-color: #263672;
   top: -10%;
-  left: 28%;
-  opacity: 1.427841912;
-  transform: rotate(36.9676995379deg);
-  animation: drop-129 4.549242216s 0.937004269s infinite;
+  left: 51%;
+  opacity: 1.4276837903;
+  transform: rotate(237.7071141489deg);
+  animation: drop-129 4.7951755578s 0.0968997443s infinite;
 }
 
 @keyframes drop-129 {
   100% {
     top: 110%;
-    left: 37%;
+    left: 57%;
   }
 }
 .confetti-130 {
-  width: 8px;
-  height: 3.2px;
+  width: 6px;
+  height: 2.4px;
   background-color: #d13447;
   top: -10%;
-  left: 26%;
-  opacity: 0.9923222596;
-  transform: rotate(296.5035995093deg);
-  animation: drop-130 4.4893919409s 0.9390750776s infinite;
+  left: 16%;
+  opacity: 0.5872204825;
+  transform: rotate(115.6768908766deg);
+  animation: drop-130 4.2041463852s 0.0303045362s infinite;
 }
 
 @keyframes drop-130 {
   100% {
     top: 110%;
-    left: 31%;
+    left: 24%;
   }
 }
 .confetti-131 {
@@ -2260,339 +2260,339 @@
   height: 0.8px;
   background-color: #ffbf00;
   top: -10%;
-  left: 97%;
-  opacity: 0.844363465;
-  transform: rotate(183.3234299642deg);
-  animation: drop-131 4.0559499365s 0.022920416s infinite;
+  left: 42%;
+  opacity: 0.5074184411;
+  transform: rotate(41.0581944794deg);
+  animation: drop-131 4.6428939438s 0.1302162894s infinite;
 }
 
 @keyframes drop-131 {
   100% {
     top: 110%;
-    left: 99%;
+    left: 48%;
   }
 }
 .confetti-132 {
-  width: 2px;
-  height: 0.8px;
+  width: 7px;
+  height: 2.8px;
   background-color: #d13447;
   top: -10%;
-  left: 1%;
-  opacity: 1.1693505272;
-  transform: rotate(277.8714717812deg);
-  animation: drop-132 4.9430805694s 0.5438046089s infinite;
+  left: 77%;
+  opacity: 1.4941453133;
+  transform: rotate(34.6706927381deg);
+  animation: drop-132 4.3066923699s 0.0877295879s infinite;
 }
 
 @keyframes drop-132 {
   100% {
     top: 110%;
-    left: 12%;
+    left: 81%;
   }
 }
 .confetti-133 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #ffbf00;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 48%;
-  opacity: 0.6209427633;
-  transform: rotate(198.6531976838deg);
-  animation: drop-133 4.9305655353s 0.6209761787s infinite;
+  left: 50%;
+  opacity: 0.8528455716;
+  transform: rotate(269.9360415083deg);
+  animation: drop-133 4.8609929727s 0.0414488715s infinite;
 }
 
 @keyframes drop-133 {
   100% {
     top: 110%;
-    left: 51%;
+    left: 52%;
   }
 }
 .confetti-134 {
-  width: 2px;
-  height: 0.8px;
+  width: 1px;
+  height: 0.4px;
   background-color: #263672;
   top: -10%;
-  left: 38%;
-  opacity: 0.7648426458;
-  transform: rotate(60.1248329649deg);
-  animation: drop-134 4.4891604881s 0.0138007782s infinite;
+  left: 12%;
+  opacity: 1.0073757416;
+  transform: rotate(169.6236814995deg);
+  animation: drop-134 4.1201429176s 0.2594353085s infinite;
 }
 
 @keyframes drop-134 {
   100% {
     top: 110%;
-    left: 49%;
+    left: 15%;
   }
 }
 .confetti-135 {
-  width: 8px;
-  height: 3.2px;
-  background-color: #263672;
+  width: 3px;
+  height: 1.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 95%;
-  opacity: 0.8271547257;
-  transform: rotate(285.9100258278deg);
-  animation: drop-135 4.1490061513s 0.0809710875s infinite;
+  left: 87%;
+  opacity: 0.6869302287;
+  transform: rotate(314.145839699deg);
+  animation: drop-135 4.5543309286s 0.031115728s infinite;
 }
 
 @keyframes drop-135 {
   100% {
     top: 110%;
-    left: 108%;
+    left: 95%;
   }
 }
 .confetti-136 {
-  width: 6px;
-  height: 2.4px;
-  background-color: #ffbf00;
+  width: 8px;
+  height: 3.2px;
+  background-color: #d13447;
   top: -10%;
-  left: 21%;
-  opacity: 0.6117117333;
-  transform: rotate(265.7236046944deg);
-  animation: drop-136 4.1585215891s 0.541288272s infinite;
+  left: 27%;
+  opacity: 0.5152309219;
+  transform: rotate(36.5506059084deg);
+  animation: drop-136 4.8585207219s 0.6930379646s infinite;
 }
 
 @keyframes drop-136 {
   100% {
     top: 110%;
-    left: 27%;
+    left: 37%;
   }
 }
 .confetti-137 {
   width: 4px;
   height: 1.6px;
-  background-color: #263672;
+  background-color: #ffbf00;
   top: -10%;
-  left: 11%;
-  opacity: 0.8330700263;
-  transform: rotate(307.4246410706deg);
-  animation: drop-137 4.0965928481s 0.7086573184s infinite;
+  left: 100%;
+  opacity: 0.6932105981;
+  transform: rotate(202.6011825645deg);
+  animation: drop-137 4.5537199909s 0.6062530729s infinite;
 }
 
 @keyframes drop-137 {
   100% {
     top: 110%;
-    left: 26%;
+    left: 105%;
   }
 }
 .confetti-138 {
-  width: 7px;
-  height: 2.8px;
+  width: 3px;
+  height: 1.2px;
   background-color: #ffbf00;
   top: -10%;
-  left: 24%;
-  opacity: 0.5912616645;
-  transform: rotate(359.2355352368deg);
-  animation: drop-138 4.7951152435s 0.2210871546s infinite;
+  left: 41%;
+  opacity: 1.3343742493;
+  transform: rotate(83.8447030372deg);
+  animation: drop-138 4.3459469148s 0.0423882525s infinite;
 }
 
 @keyframes drop-138 {
   100% {
     top: 110%;
-    left: 32%;
+    left: 52%;
   }
 }
 .confetti-139 {
-  width: 5px;
-  height: 2px;
+  width: 1px;
+  height: 0.4px;
   background-color: #ffbf00;
   top: -10%;
-  left: 42%;
-  opacity: 1.0737787766;
-  transform: rotate(358.0450273043deg);
-  animation: drop-139 4.1318413343s 0.1448342786s infinite;
+  left: 52%;
+  opacity: 1.2933623913;
+  transform: rotate(324.7041739912deg);
+  animation: drop-139 4.4898497303s 0.9588228909s infinite;
 }
 
 @keyframes drop-139 {
   100% {
     top: 110%;
-    left: 52%;
+    left: 61%;
   }
 }
 .confetti-140 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #d13447;
+  width: 5px;
+  height: 2px;
+  background-color: #263672;
   top: -10%;
-  left: 97%;
-  opacity: 1.1932545334;
-  transform: rotate(238.057296596deg);
-  animation: drop-140 4.2645948157s 0.8844116054s infinite;
+  left: 28%;
+  opacity: 1.316344255;
+  transform: rotate(119.900800042deg);
+  animation: drop-140 4.9417069173s 0.1854404887s infinite;
 }
 
 @keyframes drop-140 {
   100% {
     top: 110%;
-    left: 105%;
+    left: 42%;
   }
 }
 .confetti-141 {
-  width: 3px;
-  height: 1.2px;
+  width: 6px;
+  height: 2.4px;
   background-color: #d13447;
   top: -10%;
-  left: 34%;
-  opacity: 0.9177541103;
-  transform: rotate(249.8146632428deg);
-  animation: drop-141 4.7672590594s 0.0814093369s infinite;
+  left: 81%;
+  opacity: 1.425205433;
+  transform: rotate(121.6723160713deg);
+  animation: drop-141 4.8789955919s 0.7731656139s infinite;
 }
 
 @keyframes drop-141 {
   100% {
     top: 110%;
-    left: 49%;
+    left: 90%;
   }
 }
 .confetti-142 {
-  width: 1px;
-  height: 0.4px;
+  width: 7px;
+  height: 2.8px;
   background-color: #263672;
   top: -10%;
-  left: 3%;
-  opacity: 1.4138203814;
-  transform: rotate(41.8600219791deg);
-  animation: drop-142 4.9081542003s 0.7061111686s infinite;
+  left: 20%;
+  opacity: 0.5777339748;
+  transform: rotate(189.9739844124deg);
+  animation: drop-142 4.8977528286s 0.1772606889s infinite;
 }
 
 @keyframes drop-142 {
   100% {
     top: 110%;
-    left: 4%;
+    left: 31%;
   }
 }
 .confetti-143 {
-  width: 5px;
-  height: 2px;
-  background-color: #d13447;
+  width: 6px;
+  height: 2.4px;
+  background-color: #263672;
   top: -10%;
-  left: 26%;
-  opacity: 1.4236012265;
-  transform: rotate(291.0819961496deg);
-  animation: drop-143 4.7561562094s 0.4700893742s infinite;
+  left: 39%;
+  opacity: 1.337281404;
+  transform: rotate(290.9950278353deg);
+  animation: drop-143 4.7508149388s 0.2522437288s infinite;
 }
 
 @keyframes drop-143 {
   100% {
     top: 110%;
-    left: 31%;
+    left: 49%;
   }
 }
 .confetti-144 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #ffbf00;
+  width: 8px;
+  height: 3.2px;
+  background-color: #263672;
   top: -10%;
-  left: 60%;
-  opacity: 1.0241928949;
-  transform: rotate(359.3420710952deg);
-  animation: drop-144 4.4583108557s 0.8817680753s infinite;
+  left: 86%;
+  opacity: 0.9784600348;
+  transform: rotate(171.5619876986deg);
+  animation: drop-144 4.2711318445s 0.520152546s infinite;
 }
 
 @keyframes drop-144 {
   100% {
     top: 110%;
-    left: 66%;
+    left: 94%;
   }
 }
 .confetti-145 {
-  width: 5px;
-  height: 2px;
+  width: 2px;
+  height: 0.8px;
   background-color: #ffbf00;
   top: -10%;
-  left: 60%;
-  opacity: 1.4648386065;
-  transform: rotate(243.4699465892deg);
-  animation: drop-145 4.5911576631s 0.3614297416s infinite;
+  left: 45%;
+  opacity: 1.3199025575;
+  transform: rotate(284.8264584372deg);
+  animation: drop-145 4.9818191495s 0.5870079528s infinite;
 }
 
 @keyframes drop-145 {
   100% {
     top: 110%;
-    left: 75%;
+    left: 59%;
   }
 }
 .confetti-146 {
-  width: 1px;
-  height: 0.4px;
-  background-color: #d13447;
+  width: 4px;
+  height: 1.6px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 44%;
-  opacity: 0.7824787534;
-  transform: rotate(134.2519237758deg);
-  animation: drop-146 4.3852650752s 0.0992646121s infinite;
+  left: 26%;
+  opacity: 1.294154244;
+  transform: rotate(291.2837045447deg);
+  animation: drop-146 4.3229904554s 0.5469560758s infinite;
 }
 
 @keyframes drop-146 {
   100% {
     top: 110%;
-    left: 49%;
+    left: 28%;
   }
 }
 .confetti-147 {
-  width: 8px;
-  height: 3.2px;
+  width: 5px;
+  height: 2px;
   background-color: #263672;
   top: -10%;
-  left: 62%;
-  opacity: 0.9616940336;
-  transform: rotate(62.6449672498deg);
-  animation: drop-147 4.5984034692s 0.712778364s infinite;
+  left: 76%;
+  opacity: 1.2970797602;
+  transform: rotate(3.7240241804deg);
+  animation: drop-147 4.4999133084s 0.7974729139s infinite;
 }
 
 @keyframes drop-147 {
   100% {
     top: 110%;
-    left: 75%;
+    left: 82%;
   }
 }
 .confetti-148 {
-  width: 7px;
-  height: 2.8px;
+  width: 8px;
+  height: 3.2px;
   background-color: #d13447;
   top: -10%;
-  left: 63%;
-  opacity: 0.9137572223;
-  transform: rotate(20.9362107243deg);
-  animation: drop-148 4.6890590267s 0.8486446395s infinite;
+  left: 29%;
+  opacity: 0.7912948091;
+  transform: rotate(17.6872059386deg);
+  animation: drop-148 4.9616114742s 0.0222197562s infinite;
 }
 
 @keyframes drop-148 {
   100% {
     top: 110%;
-    left: 66%;
+    left: 34%;
   }
 }
 .confetti-149 {
-  width: 7px;
-  height: 2.8px;
-  background-color: #d13447;
+  width: 8px;
+  height: 3.2px;
+  background-color: #ffbf00;
   top: -10%;
-  left: 41%;
-  opacity: 0.604022352;
-  transform: rotate(211.1427899416deg);
-  animation: drop-149 4.2851574762s 0.0105508803s infinite;
+  left: 12%;
+  opacity: 0.7732910811;
+  transform: rotate(201.4275857623deg);
+  animation: drop-149 4.8068012723s 0.2776286721s infinite;
 }
 
 @keyframes drop-149 {
   100% {
     top: 110%;
-    left: 51%;
+    left: 22%;
   }
 }
 .confetti-150 {
-  width: 7px;
-  height: 2.8px;
+  width: 1px;
+  height: 0.4px;
   background-color: #263672;
   top: -10%;
-  left: 85%;
-  opacity: 0.5148596755;
-  transform: rotate(28.8444226362deg);
-  animation: drop-150 4.2327749783s 0.3188670038s infinite;
+  left: 10%;
+  opacity: 1.4590099399;
+  transform: rotate(299.4428379489deg);
+  animation: drop-150 4.0544189149s 0.6136079545s infinite;
 }
 
 @keyframes drop-150 {
   100% {
     top: 110%;
-    left: 93%;
+    left: 15%;
   }
 }
 .sidebar {

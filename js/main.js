@@ -1,13 +1,4 @@
 
-// $(document).scroll(function () {
-//   var y = $(this).scrollTop();
-//   if (y > 800) {
-//     $('.bottomMenu').fadeIn();
-//   } else {
-//     $('.bottomMenu').fadeOut();
-//   }
-// });
-// ADD THIS
 
 $(".go-down, .cta-button").click(function() {
   $([document.documentElement, document.body]).animate({
