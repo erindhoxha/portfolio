@@ -80,15 +80,17 @@ $white: rgb(230, 230, 230);
     transition:0.4s ease;
 }
 
-.subtitle:hover {
+/* .subtitle:hover {
     letter-spacing: 7px;
 }
+*/
 .title {
     transition:0.4s ease;
 }
-.title:hover {
+/*.title:hover {
     letter-spacing:5px;
 }
+*/
 .go-down {
     color:$white;
     position:absolute;
@@ -580,17 +582,11 @@ textarea {
     transition: 0.4s ease;
 }
 
-.subtitle:hover {
-    letter-spacing: 7px;
-}
 
 .title {
     transition: 0.4s ease;
 }
 
-.title:hover {
-    letter-spacing: 5px;
-}
 
 @media only screen and (max-width: 1024px) {
     .tools-collection {
