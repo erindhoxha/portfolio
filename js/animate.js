@@ -16,9 +16,6 @@ function runAnimations() {
 }
 
 
-
-
-
 $('.preview-btn').click(function () {
   $('.pop-up').addClass('open');
   $("#video-box").empty();
