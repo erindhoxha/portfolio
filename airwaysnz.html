@@ -1,0 +1,348 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/project.css">
+    <meta name="theme-color" content="#fafafa">
+    <style>
+    .row-projects {
+      padding-top:100px;
+      padding-bottom:100px;
+      border-bottom:2px solid #dfdfdf;
+    }
+    </style>
+</head>
+<body id="body-project">
+<button type="button" target="_blank" class="go-up-button main-go-up"><i class="fas fa-chevron-up"></i></button>
+  <!-- <div class="loader">
+    <svg version="1.1" id="ehoxloader" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 52 48" style="enable-background:new 0 0 52 48;" xml:space="preserve">
+    <g id="Website">
+      <g id="Home" transform="translate(-60.000000, -26.000000)">
+        <path id="Shape_1_" class="st2" d="M103.5,51.8c0.9,0,1.7-0.8,1.7-1.7v-9.6c0-4.4-3.6-7.9-7.9-7.9H74.7c-4.4,0-7.9,3.6-7.9,7.9
+          v18.9c0,4.4,3.6,7.9,7.9,7.9h26.2c2.6,0,4.8,2.2,4.8,4.8l0,0c0,0.2-0.2,0.3-0.3,0.3H74.7c-7.2,0.1-13-5.7-13-12.9V40.6
+          c0-7.2,5.8-13,13-13h22.6c7.2,0,13,5.8,13,13v10.2v0.8c0,3.7-3,6.8-6.8,6.8H90.3c-0.2,0-0.3,0.2-0.3,0.3v5.6
+          c0,0.2-0.2,0.3-0.3,0.3H89c-4.2,0-5.1-2.5-5.1-5.5v-0.7c0-0.2-0.2-0.3-0.3-0.3h-4.2c-0.2,0-0.3,0.2-0.3,0.3V64
+          c0,0.2-0.1,0.3-0.3,0.3l-2.2,0.1c-2.3,0-3.9-2-3.9-4.3v-16c0-0.2,0.2-0.3,0.3-0.3h1.2c2.5,0,4.5,2.1,4.5,4.5v3.4
+          c0,0.2,0.2,0.3,0.3,0.3h4.5c0.2,0,0.3-0.2,0.3-0.3v-8.2c0-0.2,0.2-0.3,0.3-0.3h1.5c2.5,0,4.5,2.1,4.5,4.5V52L103.5,51.8z"/>
+      </g>
+    </g>
+    </svg>
+  </div> -->
+
+<div class="pop-up">
+  <div class="content">
+    <div class="container-popup">
+      <div id="close" >
+         <span class="close"><i class="far fa-times-circle"></i></span>
+      </div>
+      <div id="video-box">
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    <a href="index.html">
+        <svg version="1.1" id="ehoxlogo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 52 48" style="enable-background:new 0 0 52 48;" xml:space="preserve">
+     <g id="Website">
+       <g id="Home" transform="translate(-60.000000, -26.000000)">
+         <path id="Shape_1_" class="st0" d="M103.5,51.8c0.9,0,1.7-0.8,1.7-1.7v-9.6c0-4.4-3.6-7.9-7.9-7.9H74.7c-4.4,0-7.9,3.6-7.9,7.9
+           v18.9c0,4.4,3.6,7.9,7.9,7.9h26.2c2.6,0,4.8,2.2,4.8,4.8l0,0c0,0.2-0.2,0.3-0.3,0.3H74.7c-7.2,0.1-13-5.7-13-12.9V40.6
+           c0-7.2,5.8-13,13-13h22.6c7.2,0,13,5.8,13,13v10.2v0.8c0,3.7-3,6.8-6.8,6.8H90.3c-0.2,0-0.3,0.2-0.3,0.3v5.6
+           c0,0.2-0.2,0.3-0.3,0.3H89c-4.2,0-5.1-2.5-5.1-5.5v-0.7c0-0.2-0.2-0.3-0.3-0.3h-4.2c-0.2,0-0.3,0.2-0.3,0.3V64
+           c0,0.2-0.1,0.3-0.3,0.3l-2.2,0.1c-2.3,0-3.9-2-3.9-4.3v-16c0-0.2,0.2-0.3,0.3-0.3h1.2c2.5,0,4.5,2.1,4.5,4.5v3.4
+           c0,0.2,0.2,0.3,0.3,0.3h4.5c0.2,0,0.3-0.2,0.3-0.3v-8.2c0-0.2,0.2-0.3,0.3-0.3h1.5c2.5,0,4.5,2.1,4.5,4.5V52L103.5,51.8z"/>
+       </g>
+     </g>
+     </svg>
+     </a>
+
+    <div class="container container-start f-div">
+      <div class="row text-center">
+        <div class="col-lg-12 project-title text-center">
+          <span class='small'>Airways New Zealand</span>
+          <h1 class="project-header">Operational tool UI/UX Design process</h1>
+          <img src="img/airwaysnz.png" alt="">
+        </div>
+      </div>
+    </div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4 description">
+            <h3 class="line">Client</h3>
+            <ul class="project-list">
+                <li>DebugCon - debug.al</li>
+              </ul>
+        </div>
+        <div class="col-lg-4 description">
+            <h3 class="line">What I did</h3>
+            <ul class="project-list">
+              <li>UI/UX Design</li>
+              <li>Branding</li>
+              <li>Design styleguide</li>
+              <li>User Research/Target Audience</li>
+              <li>Wireframing & Prototyping</li>
+            </ul>
+        </div>
+        <div class="col-lg-4 description">
+            <h3 class="line">Year</h3>
+            <ul class="project-list">
+                <li>2019</li>
+              </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container container-title">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1>Creating a solution for Airways New Zealand new operation system converting their physical documentation into a digital application.</h1>
+      <a href="https://debug.al">
+      <button type="button" target="_blank" class="cta-button-black" style="border: 2px solid black">Sneak peak of the prototype <i class="fas fa-search"></i></button>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container-grey">
+<div class="container case-study">
+    <div class="row row-projects">
+      <div class="col-lg-12 text-center">
+        <p class="small">GETTING STARTED</p>
+        <h1>
+            How it all started? 
+        </h1>
+        <p class="small">Airways New Zealand contacted us that needed a better solution of how they find information in their physical documentation.</p>
+        <p class="small">The UX Designer interviewed more than 20 potential users ranging from Air Traffic Controllers, product owners and project managers.</p>
+        <p class="small">We didn't limit ourselves to only Traffic Controllers manual, we took examples from medicine/engineering documentation as well.</p>
+      </div>
+    </div>
+
+    <div class="row row-projects">
+      <div class="col-lg-6 mt-5">
+          <img class="case-study-image b-r" src="img/casestudy/airways4.JPG" alt="">
+        </div>
+      <div class="col-lg-6 mt-5">
+          <p class="small">User Experience</p>
+          <h1>
+              Problems
+          </h1>
+          <p class="small">Physical documentation that Traffic Controllers used were too specific for their location and they wanted a quicker solution to switch between other tools
+            such as weather, radar screens to assist aircrafts and the application had to be an application which could only connect securely to their network.</p>
+            <p>Many Air Traffic Controllers were very familiar with the physical documentation and they knew exactly where to look when the coordinates were provided by the pilot, but they needed a faster solution, a digital solution.</p>
+            <p>The team worked to a tight 7 week deadline to deliver a design solution which would then be tested and functional/usable by Airways. </p>
+      </div>
+    </div>
+
+    <div class="row row-projects">
+
+      <div class="col-lg-6 mt-5">
+          <p class="small">Project</p>
+          <h1>
+              Process
+          </h1>
+          <h5>Research phase (2 weeks)</h5>
+          <p class="small">The UX Design lead conducted 26 interviews with Controllers
+            who represented the 7 air traffic sectors in New Zealand and
+            observational analysis inside the radar centres They also
+            reviewed previous concepts and conducted competitive
+            design research </p>
+          <h5>Concept
+            phase 2 weeks)</h5>
+          <p class="small">The
+            team then created a user journey, and three low fidelity
+            concepts for feedback and verification with a similar group of
+            controllers/project stakeholders in order to facilitate
+            design/solution preference</p>
+          <h5>Usability
+            testing and design 3 weeks)</h5>
+            <p>Reviewing
+              all feedback, an initial prototype was created and
+              tested with controllers using task cards, moderated by theta’s
+              UX lead We outcome was then turned into a high fidelity
+              design and prototype</p>
+
+      </div>
+        <div class="col-lg-6 mt-5">
+            <img class="case-study-image" src="img/casestudy/airways11.JPG" alt="">
+        </div>
+      </div>
+
+      <div class="row row-projects">
+
+        <div class="col-lg-6 mt-5 order-two confetti-wrapper">
+            <img class="case-study-image" src="img/airwaysnz.png" alt="">
+          </div>
+  
+
+        <div class="col-lg-6 mt-5 eureka">
+            <p class="small">DESIGN</p>
+            <h1>
+                Solution
+            </h1>
+            <p class="small">We came up with this logo which was minimal & clean.</p>
+            <p class="small">The purple colour symbolises 'Coding', 'Hacking' or 'Cyber', which we've chosen to use for the branding.</p>
+            <p class="small">Debugging is always a bad thing to encounter, but with these colours it will look entertaining and fun even if it's named debugCon.</p>
+        </div>
+      </div>
+
+      <div class="row row-projects">
+
+          <div class="col-lg-6 mt-5">
+              <p class="small">DESIGN</p>
+              <h1>
+                  Solution
+              </h1>
+              <p class="small">As soon as we chosen the final branding style, I've started to develop it with HTML5, CSS3, SASS, GULP.JS, JavaScript & jQuery.</p>
+              <p class="small">From here, I've decided to use a pattern from www.heropatterns.com</p>
+              <p class="small">The entire images, icons & loading screen was created with Adobe Illustrator as an SVG.</p>
+              <p class="small">SVG's were drawn into the website using JavaScript, drawing the path of the SVG when it's outlined.</p>
+
+          </div>
+            <div class="col-lg-6 mt-5">
+                <img class="case-study-image" style="width:100%" src="img/Artboard 1.png" alt="">
+            </div>
+          </div>
+
+      <div class="row row-projects">
+        <div class="col-lg-6 mt-5">
+            <p class="small">DESIGN</p>
+            <h1>
+                Badges
+            </h1>
+            <p class="small">Badges were necessary to be used in the conference because the speakers, staff, volunteers and guests could meet each other and see their names, and what they liked about.</p>
+            <p class="small">We've decided to set them into 3 categories: Support, Speaker & Volunteer.</p>
+            <p class="small">The supporters were the guests who contributed / donated into the debugCon conference.</p>
+            <p class="small">There were 24 speakers.</p>
+        </div>
+
+        <div class="col-lg-6 mt-5">
+            <img class="case-study-image" src="img/badges.png" alt="">
+          </div>
+        </div>
+
+        <div class="row row-projects">
+        <div class="col-lg-6 mt-5 order-two">
+            <img class="case-study-image" src="img/banner-mockup.png" alt="">
+          </div>
+  
+        <div class="col-lg-6 mt-5">
+            <p class="small">DESIGN</p>
+            <h1>
+                Banner / Sliding banner
+            </h1>
+            <p class="small">The banner was needed to showcase the sponsors, and the debugCon so we've created two, the banner that showcases the sponsors at the bottom and one large one with only the sponsors.</p>
+            <p class="small">There were many sponsors from:</p>
+            <p class="small">Gjirafa - www.gjirafa.com</p>
+            <p class="small">SPRIGS - www.sprigs.com</p>
+            <p class="small">Universiteti i Prishtines</p>
+            <p class="small">Inspire11 - www.inspire11.com</p>
+            <p class="small">Rrota - www.rrota.com</p>
+            <p class="small">Llatki - www.llatki.com</p>
+            <p class="small">Celonis - www.celonis.com</p>
+            <p class="small">Openresearch - www.openresearch.com</p>
+        </div>
+      </div>
+
+      <div class="row row-projects">
+          <div class="col-lg-6 mt-5">
+              <p class="small">DESIGN</p>
+              <h1>
+                  Poster Design
+              </h1>
+              <p class="small">
+                  Poster was needed to put into some universities to let them know that a coding conference is happening.
+              </p>
+              <p class="small">The idea was to put inside the UBT University and call for volunteers, and letting the guests know that anyone could go in, so it didn't matter if you were a software developer or not.</p>
+          </div>
+  
+          <div class="col-lg-6">
+              <img class="case-study-image" src="img/posterMockup2.png" alt="">
+            </div>
+      </div>
+
+      <div class="row row-projects">
+          <div class="col-lg-6 mt-5 order-two">
+              <img class="case-study-image" src="img/attendance1.png" alt="">
+              <img class="case-study-image" src="img/attendance5.jpg" alt="">
+            </div>
+
+          <div class="col-lg-6 mt-5">
+              <p class="small">CONFERENCE</p>
+              <h1>
+                  Attendance
+              </h1>
+              <p class="small">This is why I love working with real people, real data.</p>
+              <p class="small">The feedback from the people who attended was awesome, and we've developed it in a way that everyone could see the schedule.</p>
+          </div>
+      </div>
+
+      <div class="row row-projects">
+          <div class="col-lg-6 mt-5">
+              <img class="case-study-image" src="img/attendance2.png" alt="">
+          </div>
+          <div class="col-lg-6 mt-5">
+              <img class="case-study-image" src="img/attendance4.png" alt="">
+          </div>
+
+      </div>
+
+      <div class="container container-title">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1>You can see the final website here and thank you for reading!</h1>
+                <a href="https://debug.al">
+                <button type="button" target="_blank" class="cta-button-black" style="border: 2px solid black">Website <i class="fas fa-globe"></i></button>
+                </a>
+                <a href="https://www.facebook.com/debugCon/" target="_blank">
+                <button type="button" target="_blank" class="cta-button-black" style="border: 2px solid black">Facebook page  <i class="fab fa-facebook-f"></i></button>
+                </a>
+                <button type="button" target="_blank" class="cta-button-black preview-btn" style="border: 2px solid black">Preview Web-app <i class="fas fa-search"></i></button>
+                <br>
+                <button type="button" target="_blank" class="go-up-button pb-5" style="border:none;">Go up <i class="fas fa-chevron-up"></i></button>
+            </div>
+          </div>
+        </div>
+        
+    </div>
+    <!-- <div class="footer text-center mt-3 mb-3">
+        <p>Developed by erindhox.</p>
+    </div> -->
+  </div>
+
+
+</div>
+
+
+    <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animate.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
