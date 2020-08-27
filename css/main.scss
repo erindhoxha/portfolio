@@ -43,6 +43,18 @@ $white: rgb(230, 230, 230);
     align-items: center;
     color:white;
 }
+.disabled {
+    opacity:0.3;
+}
+.disabled:hover {
+    background-color:transparent !important;
+}
+.disabled {
+    .web-btn:hover {
+        background:transparent !important;
+        color:white;
+    }
+}
 
 #Shape_2_ {
     transition: 0.3s ease;
