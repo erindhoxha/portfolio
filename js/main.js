@@ -43,6 +43,14 @@ if ($("#body-project").length > 0) {
 
 $(function () {
   $(window).scroll(function () {
+    var wintop = $(window).scrollTop(),
+      docheight = $("body").height(),
+      winheight = $(window).height();
+    console.log(wintop);
+    var totalScroll = (wintop / (docheight - winheight)) * 100;
+    console.log("total scroll" + totalScroll);
+    $("#KW_progressBar").css("width", totalScroll + "%");
+
     var scroll = $(window).scrollTop(); // how many pixels you've scrolled
     var os = $(".f-div").offset().top; // pixels to the top of div1
     var ht = $(".f-div").height(); // height of div1 in pixels
