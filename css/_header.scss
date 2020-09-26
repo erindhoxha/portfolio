@@ -1,50 +1,66 @@
-.title, .subtitle, button, input, img {
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
+.title,
+.subtitle,
+button,
+input,
+img {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
                                     supported by Chrome and Opera */
-  }
+}
 
 .tools-collection {
     i {
         font-size: 30px;
         margin-top: 10px;
         margin-bottom: 20px;
-        margin-right:5px !important;
+        margin-right: 5px !important;
     }
+
     .jquery {
-        width:80px !important;
-        padding-bottom:20px !important;
-        filter:invert(1);
+        width: 80px !important;
+        padding-bottom: 20px !important;
+        filter: invert(1);
     }
+
     img {
-        width:80px !important;
-        padding-bottom:20px;
-        margin-left:20px;
+        width: 80px !important;
+        padding-bottom: 20px;
+        margin-left: 20px;
     }
+
     .gulp {
-        width:30px !important;
+        width: 30px !important;
     }
+
     .ai {
-        width:60px !important;
-        margin-bottom:-10px !important;
+        width: 60px !important;
+        margin-bottom: -10px !important;
     }
+
     .psd {
-        width:53px !important;
-        margin-bottom:-10px;
+        width: 53px !important;
+        margin-bottom: -10px;
     }
 }
+
 .subtitle {
-    cursor:default;
-    letter-spacing: 2px;
+    cursor: default;
     transition: 0.4s ease;
 }
 
 
 .title {
-    cursor:default;
+    cursor: default;
     transition: 0.4s ease;
+    text-indent: -4px;
 }

@@ -4,180 +4,216 @@
             width: 100% !important;
         }
     }
-    .order-2 {
-        order:0;
-    }
-   #logo-front {
-       display:none;
-   }
-   .sidebar {
-       display:none;
-   }
-   .code-body {
-       position:static !important;
-   }
-   .navbar {
-       display:flex !important;
-       background-color:rgba(0,0,0,0.4);
-       color:white;
-   }
-   .nav-link {
-       margin:0px;
-   }
-   .navbar-brand {
-       margin:0px;
-       color:white;
-   }
 
-   .first-div {
-       h1 {
-           font-size:66px !important;
-       }
-       .subtitle {
-           font-size:30px !important;
-       }
-       .cta-button {
-           animation:none;
-       }
-       .code-body-bottom {
-           position:static;
-       }
-       padding-left:40px !important;
-   }
-   
+    .order-2 {
+        order: 0;
+    }
+
+    #logo-front {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .code-body {
+        position: static !important;
+    }
+
+    .navbar {
+        display: flex !important;
+        background-color: rgba(0, 0, 0, 0.4);
+        color: white;
+    }
+
+    .nav-link {
+        margin: 0px;
+    }
+
+    .navbar-brand {
+        margin: 0px;
+        color: white;
+    }
+
+    .first-div {
+        h1 {
+            font-size: 66px !important;
+        }
+
+        .subtitle {
+            font-size: 30px !important;
+        }
+
+        .cta-button {
+            animation: none;
+        }
+
+        .code-body-bottom {
+            position: static;
+        }
+
+        padding-left:40px !important;
+    }
+
 }
+
 // FOR THE MAIN PAGE
 @media only screen and (max-width:600px) {
     .close {
-        display:block;
+        display: block;
     }
+
     .project-title {
         img {
-            margin-bottom:50px;
+            margin-bottom: 50px;
         }
     }
+
     .project-header {
-        font-size:32px !important;
+        font-size: 32px !important;
     }
+
     .project-subtitle {
-        font-size:25px !important;
+        font-size: 25px !important;
     }
+
     .small {
-        overflow:hidden;
+        overflow: hidden;
     }
+
     .case-study-image {
-        width:100% !important;
+        width: 100% !important;
     }
+
     .description {
-        padding-bottom:25px !important;
-        padding-top:25px !important;
+        padding-bottom: 25px !important;
+        padding-top: 25px !important;
     }
+
     .first-div {
         .cta-button {
             margin-left: 0px;
         }
     }
+
     .project-brief-text {
-        font-size:24px;
+        font-size: 24px;
     }
+
     .project-description {
-        font-size:17px;
+        font-size: 17px;
     }
-    .first-div{
-        .text-erind {
+
+    .first-div {
+        h1.title {
             font-size: 55px !important;
         }
     }
+
     .contact-text {
-        font-size:25px;
+        font-size: 25px;
     }
 }
 
 // GENERAL
-  @media only screen and (max-width: 600px) {
-       .main-go-up {
-           bottom:20px !important;
-           right:30px !important;
-           padding:0px !important;
-       }
-      .project {
-          h1 {
-              font-size:35px !important;
-              font-weight:900;
-          }
-      }
-      .tools-collection {
-          display:none;
-      }
-      .go-down {
-          display:none;
-      }
-      .code {
-          width:100%;
-      }
-      .first-div {
-        .h1-shadow {
-              text-shadow:none;
-        }
-        .h2-shadow {
-            text-shadow:none !important;
-        }
-        .subtitle {
-            font-size:25px !important;
-            width:90%;
-        }
-      }
- 
-      .cta-button-contact {
-          margin-left:0px !important;
-      }
-      .col-lg-6 {
-          h1 {
-              margin-top:30px;
-          }
-      }
-    .order-two {
-        order:2;
+@media only screen and (max-width: 600px) {
+    .main-go-up {
+        bottom: 20px !important;
+        right: 30px !important;
+        padding: 0px !important;
     }
+
+    .project {
+        h1 {
+            font-size: 35px !important;
+            font-weight: 900;
+        }
+    }
+
+    .tools-collection {
+        display: none;
+    }
+
+    .go-down {
+        display: none;
+    }
+
+    .code {
+        width: 100%;
+    }
+
+    .first-div {
+        .h1-shadow {
+            text-shadow: none;
+        }
+
+        .h2-shadow {
+            text-shadow: none !important;
+        }
+
+        .subtitle {
+            font-size: 25px !important;
+            width: 90%;
+        }
+    }
+
+    .cta-button-contact {
+        margin-left: 0px !important;
+    }
+
+    .col-lg-6 {
+        h1 {
+            margin-top: 30px;
+        }
+    }
+
+    .order-two {
+        order: 2;
+    }
+
     .button-container {
         button {
-            margin-top:10px;
+            margin-top: 10px;
         }
+
         text-align:center;
     }
-  }
+}
 
 
-  /* ==========================================================================
+/* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
 
-   @media only screen and (min-width: 35em) {
+@media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
 
- 
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-   @media print {
+@media print {
+
     *,
     *:before,
     *:after {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster */
+        color: #000 !important;
+        /* Black prints faster */
         -webkit-box-shadow: none !important;
         box-shadow: none !important;
         text-shadow: none !important;
@@ -189,11 +225,11 @@
     }
 
     a[href]:after {
-        content: " (" attr(href) ")";
+        content: " ("attr(href) ")";
     }
 
     abbr[title]:after {
-        content: " (" attr(title) ")";
+        content: " ("attr(title) ")";
     }
 
     /*
@@ -209,6 +245,7 @@
     pre {
         white-space: pre-wrap !important;
     }
+
     pre,
     blockquote {
         border: 1px solid #999;
