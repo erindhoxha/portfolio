@@ -42,20 +42,34 @@ if ($("#body-project").length > 0) {
 }
 
 $(function () {
+  var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+  if (scroll == 0) {
+    $(".KW_progressContainer").hide();
+  } else {
+    $(".KW_progressContainer").show();
+  }
+
   $(window).scroll(function () {
     var wintop = $(window).scrollTop(),
       docheight = $("body").height(),
       winheight = $(window).height();
     var totalScroll = (wintop / (docheight - winheight)) * 100;
-    $("#KW_progressBar").css("width", totalScroll + "%");
 
     var scroll = $(window).scrollTop(); // how many pixels you've scrolled
     var os = $(".f-div").offset().top; // pixels to the top of div1
     var ht = $(".f-div").height(); // height of div1 in pixels
+    $("#KW_progressBar").css("width", totalScroll + "%");
+    if (totalScroll == 0) {
+      $(".KW_progressContainer").hide();
+    } else {
+      $(".KW_progressContainer").show();
+    }
+
     // if you've scrolled further than the top of div1 plus it's height
     // change the color. either by adding a class or setting a css property
     if (scroll > os + ht) {
       $(".main-go-up").fadeIn(200);
+      console.log("uip");
     } else {
       $(".main-go-up").fadeOut(300);
     }
