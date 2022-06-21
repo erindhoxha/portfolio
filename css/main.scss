@@ -704,3 +704,9 @@ body {
 .confetti-wrapper {
     overflow-x: hidden;
 }
+
+.project-row {
+    &:nth-of-type(odd) {
+        background-color:rgba(0, 0, 0, 0.4) !important;
+    }
+}
